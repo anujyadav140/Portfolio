@@ -1,15 +1,30 @@
-/* @media (max-width: 600px) {
-    .body {
+@media (max-width: 600px) {
+    canvas {
         width: 100%;
     }
-} */
+}
+@media (min-width: 601px) {
+    canvas {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    canvas {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    canvas {
+        width: 100%;
+    }
+}
 :root {
     --random-red: 0;
     --random-green: 0;
     --random-blue: 0;
   }
 
-  /* .section {
+  .section {
     background-color: #f8f9fa;
     padding: 20px;
     margin-bottom: 20px;
@@ -17,7 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  } */
+  }
 
 .navbar-light .navbar-nav .nav-link {
     border-radius: 4px;
