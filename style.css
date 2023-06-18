@@ -1,0 +1,154 @@
+@media (max-width: 600px) {
+    .wrapper-main {
+        width: 100%;
+    }
+}
+:root {
+    --random-red: 0;
+    --random-green: 0;
+    --random-blue: 0;
+  }
+
+  .section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.navbar-light .navbar-nav .nav-link {
+    border-radius: 4px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    align-items: center;
+    font-family: 'Roboto Mono';
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border-radius: 4px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    align-items: center;
+    background-color: rgba(
+        var(--random-red),
+        var(--random-green),
+        var(--random-blue),
+        0.5
+      );
+      color: #333;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-toggler {
+    margin-bottom: 10px;
+    color: black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0);
+    border-color: rgba(0,0,0);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+.dropdown-menu.show {
+    border-color: black;
+    margin-bottom: 10px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.rive-content {
+    text-align: center;
+}
+.section {
+    margin-top: 100px;
+  }
+
+  .bg-light {
+    background-color: blanchedalmond !important;
+    border-bottom: 2px solid black;
+  }
+  .bg-light:hover {
+    border-bottom: 4px solid black;
+  }
+  .tilt-card {
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 4px solid black;
+    border-color: black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+  }
+
+  .tilt-card:hover {
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        border-bottom: 2px solid black;
+  }
+  
+  .image-card {
+    width: 90%;
+    height: 200px;
+    background-color: aquamarine;
+    transform: translateZ(50px);
+    border-radius: 4px solid black;
+    border-color: black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    margin-top: 10px; 
+  }
+  
+  .image-card:hover {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+canvas {
+    margin-top: -5em;
+    margin-bottom: -3em;
+    pointer-events: none;
+}
+.swiper-container {
+    width: 500px;
+}
