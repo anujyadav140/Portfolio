@@ -145,7 +145,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
           shortDescription:
               'A cross-platform real time chatting app with multimedia support, voice texts and even voice commands, built using flutter and firebase.',
           longDescription:
-              '''—Side project I did to get accustomed to Firebase and Native android app development and utilizing the Speech Recognition APIs in the OS.\n—This chatting app has multimedia support, voice texts and even voice commands.\n—Implemented voice command features to navigate between pages and logout (more voice commands can be added-), speech recognition was done with the help of native speech recognition api in android.\n—Even implemented chatGPT & Dall-E as one of the chatting options.''',
+              '''—Side project I did to get accustomed to Firebase and Native android app development and utilizing the Speech Recognition APIs in the OS.\n—This chatting app has multimedia support, voice texts and even voice commands.\n—Implemented voice command features to navigate between pages and logout (more voice commands can be added-), speech recognition was done with the help of native speech recognition api in android.\n—Even implemented chatGPT & Dall-E as one of the chatting options to get accustomed to these new technologies.''',
           screenshots: [
             'assets/screenshots/chatting-ss1.png',
             'assets/screenshots/chatting-ss2.png',
