@@ -45,31 +45,31 @@ class HighlightsDesktopWidget extends StatelessWidget {
                     highlightContainer(
                         context,
                         false,
-                        '14,000+ YouTube Subscribers',
+                        'Working as a Software Developer at LTIMindtree',
                         AppImages.bookmarkImage,
-                        'Published over 350 Videos sharing my Development Experiences and Technical Expertise. ',
+                        'Delivered products for clients such as Viatris and Procter & Gamble, which gave me the opportunity of working on exciting new technologies. ',
                         'VISIT CHANNEL'),
                     highlightContainer(
                         context,
                         false,
-                        'Ex-Intern @Tickertape',
+                        'Working as a full stack developer',
                         AppImages.bulbImage,
-                        'Worked at Indian Fintech Startup Tickertape as a Mobile Development Engineer',
+                        'Front-end expertise in React, Flutter, and Angular, along with back-end skills in Flask and Express. Proven track record delivering efficient full-stack solutions.',
                         'VISIT CHANNEL'),
                     highlightContainer(
                         context,
-                        false,
-                        'SDE @Stealth Startup',
-                        AppImages.cupImage,
-                        'I am currently employed as an SDE at a HealthTech Accelerator Startup based in a beautiful city, Pune.',
-                        'VISIT CHANNEL'),
-                    highlightContainer(
-                        context,
-                        false,
-                        'ML Researcher',
+                        true,
+                        'Artificial Intelligence - LLMS - Supervised Learning',
                         AppImages.pickerImage,
-                        "With a passion for pushing AI's boundaries, I continually delve into the latest research and developments in the field.",
-                        'VISIT CHANNEL'),
+                        'I have gotten interested in LLMS, Generative AI, Models for supervised learning etc. I like to build things utilizing these technologies and try to solve a problem with it. I have published my own App on playstore.',
+                        'See Projects'),
+                    highlightContainer(
+                        context,
+                        true,
+                        'My hobbies are ...',
+                        AppImages.cupImage,
+                        "I like to sketch, do digital drawing, animate & I also like to read books and write poetry.",
+                        'See more'),
                   ],
                 )
               ],
@@ -83,9 +83,10 @@ class HighlightsDesktopWidget extends StatelessWidget {
   Widget highlightContainer(BuildContext context, bool showButton, String topic,
       imagePath, text, buttonText) {
     double w = MediaQuery.of(context).size.width;
+    double h = MediaQuery.of(context).size.height;
     return Container(
       width: w / 2.4,
-      height: 260,
+      height: h / 2.52,
       padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
       decoration: BoxDecoration(
           color: AppColors.purpleDark.withOpacity(0.5),
@@ -93,12 +94,12 @@ class HighlightsDesktopWidget extends StatelessWidget {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          AppImageWidget(
-            imageWidth: 100,
-            imageHeight: 100,
-            path: imagePath,
-          ),
-          const SizedBox(width: 20),
+          // AppImageWidget(
+          //   imageWidth: 100,
+          //   imageHeight: 100,
+          //   path: imagePath,
+          // ),
+          // const SizedBox(width: 20),
           Flexible(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -117,9 +118,16 @@ class HighlightsDesktopWidget extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 if (showButton)
-                  AppOutlinedButton(
-                    title: buttonText,
-                    textStyle: const TextStyle(fontSize: 12),
+                  MouseRegion(
+                    cursor: SystemMouseCursors.click,
+                    child: AppOutlinedButton(
+                      title: buttonText,
+                      textStyle: const TextStyle(fontSize: 12),
+                      onTap: () {
+                        if (buttonText == "See more") {
+                        } else if (buttonText == "See Projects") {}
+                      },
+                    ),
                   )
               ],
             ),

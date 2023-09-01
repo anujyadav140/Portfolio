@@ -25,8 +25,7 @@ class TechstackDesktopWidget extends StatelessWidget {
                 ),
                 children: [
                   const TextSpan(
-                    text:
-                        'I have attained expertise in an array of cutting-edge ',
+                    text: 'I have gained experience in a wide-variety of ',
                   ),
                   TextSpan(
                     text: 'tech stacks \n',
@@ -34,14 +33,14 @@ class TechstackDesktopWidget extends StatelessWidget {
                   ),
                   const TextSpan(
                     text:
-                        'empowering me to craft seamless and innovative solutions.',
+                        'which grant me the means to create, develop exciting new solutions ',
                   ),
                 ],
               ),
             ),
             const SizedBox(height: 20),
             const Text(
-              "I have served as the Founder of growmonks, overseeing the entire project lifecycle from ideation to successful client project delivery. As a Flutter Engineer at Tickertape(10M+), where I had the privilege of developing for a huge user base. I gained invaluable experience and deepened my understanding of mobile development concepts.",
+              "I have served as software engineer at LTIMindtree; working on viaflow 2.0- a production tracking software & various Procter & Gamble projects- nextjs upgradation of various sites, solving and debugging various P&G projects in a vast codebase.\nIn my free time, I create many solo projects, and have also published an App.",
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 20),
