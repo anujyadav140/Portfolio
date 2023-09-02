@@ -1,4 +1,5 @@
 import 'package:akshit_madan/details/project_detail.dart';
+import 'package:akshit_madan/details/project_mobile_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -101,24 +102,25 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
           technologies:
               'Flutter, OpenAI LLMs, Langchain, Hive, Provider State Management, Typescript, Firebase.'),
       Project(
-        image: const AssetImage('assets/screenshots/wiki-ai.png'),
-        name: 'Wiki-AI',
-        shortDescription:
-            'Wiki-AI uses OpenAI & Langchain to generate summaries of any Wikipedia article you want-',
-        longDescription: '',
-        screenshots: [
-          'assets/screenshots/wiki-ai-ss1.png',
-          'assets/screenshots/wiki-ai-ss2.png',
-          'assets/screenshots/wiki-ai-ss3.png',
-          'assets/screenshots/wiki-ai-ss4.png',
-          'assets/screenshots/wiki-ai-ss5.png',
-          'assets/screenshots/wiki-ai-ss6.png',
-          'assets/screenshots/wiki-ai-ss7.png',
-        ],
-        url: 'https://wiki-ai.vercel.app/',
-        isLandscape: true,
-        technologies: '',
-      ),
+          image: const AssetImage('assets/screenshots/wiki-ai.png'),
+          name: 'Wiki-AI',
+          shortDescription:
+              'Wiki-AI uses OpenAI & Langchain to generate summaries of any Wikipedia article you want-',
+          longDescription:
+              '''—This is a solo app I developed in my free time...\n—I was excited about the possibilities of Large Language Models and wanted to use it for summarization purposes.\n—Wiki-AI is an LLM Project, Where in you can generate summaries of Wikipedia articles through invoking openAI APIs.\n— I used Langchain framework for prompt engineering and used vector search for slicing and generating relevant and accurate information.\n—I used Wikipedia API for extracting data for the summary generation.''',
+          screenshots: [
+            'assets/screenshots/wiki-ai-ss1.png',
+            'assets/screenshots/wiki-ai-ss2.png',
+            'assets/screenshots/wiki-ai-ss3.png',
+            'assets/screenshots/wiki-ai-ss4.png',
+            'assets/screenshots/wiki-ai-ss5.png',
+            'assets/screenshots/wiki-ai-ss6.png',
+            'assets/screenshots/wiki-ai-ss7.png',
+          ],
+          url: 'https://wiki-ai.vercel.app/',
+          isLandscape: true,
+          technologies:
+              'React, Nextjs, Typescript, Express, OpenAI LLMs, Langchain & Pinecone'),
       Project(
           image: const AssetImage('assets/screenshots/poetry-analysis.png'),
           name: 'Poetry Analysis',
@@ -165,7 +167,7 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(
                   builder: (context) {
-                    return ProjectDetail(
+                    return ProjectDetailMobile(
                       projectTitle: project.name,
                       projectShortDescription: project.shortDescription,
                       projectScreenshots: project.screenshots,
