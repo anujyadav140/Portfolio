@@ -118,7 +118,7 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
             'assets/screenshots/wiki-ai-ss7.png',
           ],
           url: 'https://wiki-ai.vercel.app/',
-          isLandscape: true,
+          isLandscape: false,
           technologies:
               'React, Nextjs, Typescript, Express, OpenAI LLMs, Langchain & Pinecone'),
       Project(
@@ -136,7 +136,7 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
             'assets/screenshots/poetry-analysis-ss5.png',
           ],
           url: 'https://poetry-analysis.web.app/#/',
-          isLandscape: true,
+          isLandscape: false,
           technologies:
               'Flutter, Python, Flask, Syllapy, NLTK, pronouncing, CMUDict'),
       Project(
