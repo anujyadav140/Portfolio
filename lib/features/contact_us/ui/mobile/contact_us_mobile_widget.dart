@@ -1,4 +1,4 @@
-import 'package:akshit_madan/design/utils/app_colors.dart';
+import 'package:anuj_yadav/design/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media_flutter/widgets/icons.dart';
 import 'package:social_media_flutter/widgets/text.dart';

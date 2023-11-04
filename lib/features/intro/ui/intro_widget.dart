@@ -1,5 +1,5 @@
-import 'package:akshit_madan/features/intro/ui/desktop/intro_desktop_widget.dart';
-import 'package:akshit_madan/features/intro/ui/mobile/intro_mobile_widget.dart';
+import 'package:anuj_yadav/features/intro/ui/desktop/intro_desktop_widget.dart';
+import 'package:anuj_yadav/features/intro/ui/mobile/intro_mobile_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 

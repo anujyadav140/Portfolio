@@ -1,7 +1,7 @@
-import 'package:akshit_madan/core/api_layer/clients/videos_api_client.dart';
-import 'package:akshit_madan/core/api_services/videos_api_service/videos_api_service.dart';
-import 'package:akshit_madan/features/videos/bloc/videos_bloc.dart';
-import 'package:akshit_madan/features/videos/repos/videos_repo.dart';
+import 'package:anuj_yadav/core/api_layer/clients/videos_api_client.dart';
+import 'package:anuj_yadav/core/api_services/videos_api_service/videos_api_service.dart';
+import 'package:anuj_yadav/features/videos/bloc/videos_bloc.dart';
+import 'package:anuj_yadav/features/videos/repos/videos_repo.dart';
 import 'package:get_it/get_it.dart';
 
 class AppDependencyInjection {

@@ -1,5 +1,5 @@
-import 'package:akshit_madan/details/project_detail.dart';
-import 'package:akshit_madan/details/project_mobile_detail.dart';
+import 'package:anuj_yadav/details/project_detail.dart';
+import 'package:anuj_yadav/details/project_mobile_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -118,7 +118,7 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
             'assets/screenshots/wiki-ai-ss7.png',
           ],
           url: 'https://wiki-ai.vercel.app/',
-          isLandscape: false,
+          isLandscape: true,
           technologies:
               'React, Nextjs, Typescript, Express, OpenAI LLMs, Langchain & Pinecone'),
       Project(
@@ -136,7 +136,7 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
             'assets/screenshots/poetry-analysis-ss5.png',
           ],
           url: 'https://poetry-analysis.web.app/#/',
-          isLandscape: false,
+          isLandscape: true,
           technologies:
               'Flutter, Python, Flask, Syllapy, NLTK, pronouncing, CMUDict'),
       Project(

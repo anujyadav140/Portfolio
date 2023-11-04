@@ -1,7 +1,8 @@
-import 'package:akshit_madan/design/constants/app_images.dart';
-import 'package:akshit_madan/design/utils/app_colors.dart';
-import 'package:akshit_madan/design/widgets/app_image_widget.dart';
-import 'package:akshit_madan/design/widgets/buttons/app_outlined_button.dart';
+import 'package:anuj_yadav/design/constants/app_images.dart';
+import 'package:anuj_yadav/design/utils/app_colors.dart';
+import 'package:anuj_yadav/design/widgets/app_image_widget.dart';
+import 'package:anuj_yadav/design/widgets/buttons/app_outlined_button.dart';
+import 'package:anuj_yadav/details/hobby.dart';
 import 'package:flutter/material.dart';
 
 class HighlightsMobileWidget extends StatelessWidget {
@@ -58,10 +59,10 @@ class HighlightsMobileWidget extends StatelessWidget {
                         'VISIT CHANNEL'),
                     highlightContainer(
                         context,
-                        true,
-                        'Artificial Intelligence - LLMS - Supervised Learning',
+                        false,
+                        'AI - LLMS - Supervised Learning',
                         AppImages.pickerImage,
-                        'I have gotten interested in LLMS, Generative AI, Models for supervised learning etc. I like to build things utilizing these technologies and try to solve a problem with it. I have published my own App on playstore.',
+                        'I am interested in LLMS, Generative AI, supervised learning etc. I like to build things utilizing these technologies and solve problems. I have published my own App on playstore.',
                         'See Projects'),
                     highlightContainer(
                         context,
@@ -122,6 +123,11 @@ class HighlightsMobileWidget extends StatelessWidget {
                       textStyle: const TextStyle(fontSize: 12),
                       onTap: () {
                         if (buttonText == "See more") {
+                          Navigator.push(context, MaterialPageRoute(
+                            builder: (context) {
+                              return const Hobbies();
+                            },
+                          ));
                         } else if (buttonText == "See Projects") {}
                       },
                     ),

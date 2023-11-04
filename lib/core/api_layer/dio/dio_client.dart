@@ -1,5 +1,5 @@
-import 'package:akshit_madan/core/api_layer/constants.dart';
-import 'package:akshit_madan/core/api_layer/models/api.dart';
+import 'package:anuj_yadav/core/api_layer/constants.dart';
+import 'package:anuj_yadav/core/api_layer/models/api.dart';
 import 'package:dio/dio.dart';
 
 import '../models/exceptions.dart/unsecured_error.dart';

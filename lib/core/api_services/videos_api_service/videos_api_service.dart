@@ -1,10 +1,10 @@
 import 'dart:developer';
 
-import 'package:akshit_madan/core/api_layer/api_response.dart';
-import 'package:akshit_madan/core/api_layer/clients/videos_api_client.dart';
-import 'package:akshit_madan/core/api_layer/extensions/api_response_parser.dart';
-import 'package:akshit_madan/features/videos/models/videos_data_ui_model.dart';
-import 'package:akshit_madan/project/local/db.dart';
+import 'package:anuj_yadav/core/api_layer/api_response.dart';
+import 'package:anuj_yadav/core/api_layer/clients/videos_api_client.dart';
+import 'package:anuj_yadav/core/api_layer/extensions/api_response_parser.dart';
+import 'package:anuj_yadav/features/videos/models/videos_data_ui_model.dart';
+import 'package:anuj_yadav/project/local/db.dart';
 
 class VideosApiService {
   final VideosApiClient videosApiClient;

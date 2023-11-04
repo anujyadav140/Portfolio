@@ -1,7 +1,8 @@
-import 'package:akshit_madan/design/constants/app_images.dart';
-import 'package:akshit_madan/design/utils/app_colors.dart';
-import 'package:akshit_madan/design/widgets/app_image_widget.dart';
-import 'package:akshit_madan/design/widgets/buttons/app_outlined_button.dart';
+import 'package:anuj_yadav/design/constants/app_images.dart';
+import 'package:anuj_yadav/design/utils/app_colors.dart';
+import 'package:anuj_yadav/design/widgets/app_image_widget.dart';
+import 'package:anuj_yadav/design/widgets/buttons/app_outlined_button.dart';
+import 'package:anuj_yadav/details/hobby.dart';
 import 'package:flutter/material.dart';
 
 class HighlightsDesktopWidget extends StatelessWidget {
@@ -45,9 +46,9 @@ class HighlightsDesktopWidget extends StatelessWidget {
                     highlightContainer(
                         context,
                         false,
-                        'Working as a Software Developer at LTIMindtree',
+                        'LTIMindtree - Freelancing - Teaching',
                         AppImages.bookmarkImage,
-                        'Delivered products for clients such as Viatris and Procter & Gamble, which gave me the opportunity of working on exciting new technologies. ',
+                        'Worked at LTIMindtree, Currently doing freelancing and teaching',
                         'VISIT CHANNEL'),
                     highlightContainer(
                         context,
@@ -58,10 +59,10 @@ class HighlightsDesktopWidget extends StatelessWidget {
                         'VISIT CHANNEL'),
                     highlightContainer(
                         context,
-                        true,
-                        'Artificial Intelligence - LLMS - Supervised Learning',
+                        false,
+                        'AI - LLMS - Supervised Learning',
                         AppImages.pickerImage,
-                        'I have gotten interested in LLMS, Generative AI, Models for supervised learning etc. I like to build things utilizing these technologies and try to solve a problem with it. I have published my own App on playstore.',
+                        'I am interested in LLMS, Generative AI, supervised learning etc. I like to build things utilizing these technologies and solve problems. I have published my own App on playstore.',
                         'See Projects'),
                     highlightContainer(
                         context,
@@ -86,7 +87,7 @@ class HighlightsDesktopWidget extends StatelessWidget {
     double h = MediaQuery.of(context).size.height;
     return Container(
       width: w / 2.4,
-      height: h / 2.52,
+      height: h / 2.525,
       padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
       decoration: BoxDecoration(
           color: AppColors.purpleDark.withOpacity(0.5),
@@ -125,6 +126,11 @@ class HighlightsDesktopWidget extends StatelessWidget {
                       textStyle: const TextStyle(fontSize: 12),
                       onTap: () {
                         if (buttonText == "See more") {
+                          Navigator.push(context, MaterialPageRoute(
+                            builder: (context) {
+                              return const Hobbies();
+                            },
+                          ));
                         } else if (buttonText == "See Projects") {}
                       },
                     ),

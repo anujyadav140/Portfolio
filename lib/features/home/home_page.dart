@@ -1,8 +1,8 @@
-import 'package:akshit_madan/features/contact_us/ui/contact_us_widget.dart';
-import 'package:akshit_madan/features/highlights/ui/highlights_widget.dart';
-import 'package:akshit_madan/features/intro/ui/intro_widget.dart';
-import 'package:akshit_madan/features/techstack/ui/techstack_widget.dart';
-import 'package:akshit_madan/features/videos/ui/videos_widget.dart';
+import 'package:anuj_yadav/features/contact_us/ui/contact_us_widget.dart';
+import 'package:anuj_yadav/features/highlights/ui/highlights_widget.dart';
+import 'package:anuj_yadav/features/intro/ui/intro_widget.dart';
+import 'package:anuj_yadav/features/techstack/ui/techstack_widget.dart';
+import 'package:anuj_yadav/features/videos/ui/videos_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

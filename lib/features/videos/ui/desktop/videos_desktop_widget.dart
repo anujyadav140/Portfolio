@@ -1,4 +1,4 @@
-import 'package:akshit_madan/details/project_detail.dart';
+import 'package:anuj_yadav/details/project_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -81,6 +81,28 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
     projects = [
       Project(
           image: const AssetImage('assets/screenshots/poetry-ai.png'),
+          name: 'Diarify',
+          shortDescription:
+              'A diary app which ',
+          longDescription:
+              '''—This is a solo app I developed and published in my free time...\n—A poetry editor app powered by AI (chatGPT), which gives you recommendations and guides you to enhance your poetry writing skills. Write, analyse, generate poetical responses from a pretty good AI assistant.\n—I used Flutter framework to make the front end of the app, the backend is written using Typescript and is built using firebase cloud functions.\n—For the AI part I used the openAI LLM model to generate responses for the user, I used the Langchain framework for prompt engineering.\n—All the data is stored on the user's device, nothing is stored in the cloud.''',
+          screenshots: [
+            'assets/screenshots/poetry-ai-ss1.png',
+            'assets/screenshots/poetry-ai-ss2.png',
+            'assets/screenshots/poetry-ai-ss3.png',
+            'assets/screenshots/poetry-ai-ss4.png',
+            'assets/screenshots/poetry-ai-ss5.png',
+            'assets/screenshots/poetry-ai-ss6.png',
+            'assets/screenshots/poetry-ai-ss7.png',
+            'assets/screenshots/poetry-ai-ss8.png',
+          ],
+          url:
+              'https://play.google.com/store/apps/details?id=com.anujyadav.poetryai&pli=1',
+          isLandscape: false,
+          technologies:
+              'Flutter, OpenAI LLMs, Langchain, Hive, Provider State Management, Typescript & Firebase.'),
+      Project(
+          image: const AssetImage('assets/screenshots/poetry-ai.png'),
           name: 'Poetry AI',
           shortDescription:
               'Published a poetry editor app that is powered by LLMs on the google playstore.',
@@ -102,6 +124,21 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
           technologies:
               'Flutter, OpenAI LLMs, Langchain, Hive, Provider State Management, Typescript & Firebase.'),
       Project(
+          image: const AssetImage('assets/screenshots/artisan.png'),
+          name: 'Artisan',
+          shortDescription:
+              'Freelancing project I made for Artisan Business Ventures Pvt Ltd, to streamline their Salon Business.',
+          longDescription:
+              '''—This is a solo app I developed and published in my free time...\n—A poetry editor app powered by AI (chatGPT), which gives you recommendations and guides you to enhance your poetry writing skills. Write, analyse, generate poetical responses from a pretty good AI assistant.\n—I used Flutter framework to make the front end of the app, the backend is written using Typescript and is built using firebase cloud functions.\n—For the AI part I used the openAI LLM model to generate responses for the user, I used the Langchain framework for prompt engineering.\n—All the data is stored on the user's device, nothing is stored in the cloud.''',
+          screenshots: [
+            'assets/screenshots/artisan-ss1.png',
+            'assets/screenshots/artisan-ss2.png',
+          ],
+          url: 'https://github.com/anujyadav140/Artisan',
+          isLandscape: false,
+          technologies:
+              'Flutter, Hive, Provider State Management, Typescript & Firebase.'),
+      Project(
           image: const AssetImage('assets/screenshots/wiki-ai.png'),
           name: 'Wiki-AI',
           shortDescription:
@@ -118,7 +155,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
             'assets/screenshots/wiki-ai-ss7.png',
           ],
           url: 'https://wiki-ai.vercel.app/',
-          isLandscape: false,
+          isLandscape: true,
           technologies:
               'React, Nextjs, Typescript, Express, OpenAI LLMs, Langchain & Pinecone'),
       Project(
@@ -136,7 +173,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
             'assets/screenshots/poetry-analysis-ss5.png',
           ],
           url: 'https://poetry-analysis.web.app/#/',
-          isLandscape: false,
+          isLandscape: true,
           technologies:
               'Flutter, Python, Flask, Syllapy, NLTK, pronouncing, CMUDict'),
       Project(

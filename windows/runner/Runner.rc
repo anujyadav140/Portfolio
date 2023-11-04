@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "akshit_madan" "\0"
+            VALUE "FileDescription", "anuj_yadav" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "akshit_madan" "\0"
+            VALUE "InternalName", "anuj_yadav" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "akshit_madan.exe" "\0"
-            VALUE "ProductName", "akshit_madan" "\0"
+            VALUE "OriginalFilename", "anuj_yadav.exe" "\0"
+            VALUE "ProductName", "anuj_yadav" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

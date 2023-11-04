@@ -1,6 +1,6 @@
-import 'package:akshit_madan/design/constants/app_constants.dart';
-import 'package:akshit_madan/design/utils/app_colors.dart';
-import 'package:akshit_madan/design/widgets/app_image_widget.dart';
+import 'package:anuj_yadav/design/constants/app_constants.dart';
+import 'package:anuj_yadav/design/utils/app_colors.dart';
+import 'package:anuj_yadav/design/widgets/app_image_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 

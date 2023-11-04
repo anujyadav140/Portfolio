@@ -1,5 +1,5 @@
-import 'package:akshit_madan/design/constants/app_images.dart';
-import 'package:akshit_madan/design/utils/app_colors.dart';
+import 'package:anuj_yadav/design/constants/app_images.dart';
+import 'package:anuj_yadav/design/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media_flutter/social_media_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
