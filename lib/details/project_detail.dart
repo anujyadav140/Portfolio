@@ -130,7 +130,7 @@ class _ProjectDetailState extends State<ProjectDetail> {
             decoration: const BoxDecoration(
               color: Colors.transparent,
             ),
-            child: Image.asset(
+            child: Image.network(
               screenshot,
               fit: BoxFit.fitWidth,
             ),
