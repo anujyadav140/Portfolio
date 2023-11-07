@@ -14,7 +14,7 @@ class _HobbiesState extends State<Hobbies> {
       appBar: AppBar(title: const Text("Hobbies")),
       body: Center(
         child: Container(
-          child: Text("My Hobbies"),
+          child: const Text("My Hobbies"),
         ),
       ),
     );

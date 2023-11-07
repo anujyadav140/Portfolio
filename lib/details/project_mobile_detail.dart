@@ -138,8 +138,8 @@ class _ProjectDetailMobileState extends State<ProjectDetailMobile> {
         effect: const JumpingDotEffect(
           dotWidth: 10,
           dotHeight: 10,
-          dotColor: Colors.greenAccent,
-          activeDotColor: Color.fromARGB(255, 42, 97, 44),
+          dotColor: Colors.white,
+          activeDotColor: Color.fromRGBO(97, 97, 97, 1),
         ),
       );
 }

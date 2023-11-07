@@ -1,7 +1,6 @@
 import 'package:anuj_yadav/design/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:social_media_flutter/social_media_flutter.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'dart:html' as html;
 
 class ContactUsDesktopWidget extends StatelessWidget {

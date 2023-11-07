@@ -1,4 +1,3 @@
-import 'package:anuj_yadav/details/project_detail.dart';
 import 'package:anuj_yadav/details/project_mobile_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -221,8 +220,8 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
         effect: const JumpingDotEffect(
           dotWidth: 20,
           dotHeight: 20,
-          dotColor: Colors.greenAccent,
-          activeDotColor: Color.fromARGB(255, 42, 97, 44),
+          dotColor: Colors.white,
+          activeDotColor: Color.fromRGBO(97, 97, 97, 1),
         ),
       );
 }

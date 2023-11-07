@@ -6,7 +6,7 @@ class RichTextMarquee extends StatefulWidget {
   final double velocity;
   final EdgeInsets padding;
 
-  RichTextMarquee({
+  const RichTextMarquee({super.key, 
     required this.inlineSpans,
     this.velocity = 50.0,
     this.padding = EdgeInsets.zero,
@@ -39,7 +39,7 @@ class _RichTextMarqueeState extends State<RichTextMarquee> {
   }
 
   void _startScrolling() {
-    _timer = Timer.periodic(Duration(milliseconds: 16), (_) {
+    _timer = Timer.periodic(const Duration(milliseconds: 16), (_) {
       if (_scrollController.hasClients) {
         setState(() {
           _scrollPosition += 1;
@@ -70,7 +70,7 @@ class _RichTextMarqueeState extends State<RichTextMarquee> {
           physics: const NeverScrollableScrollPhysics(),
           child: Padding(
             padding: widget.padding,
-            child: Container(
+            child: SizedBox(
               width: _containerWidth,
               child: GestureDetector(
                 behavior: HitTestBehavior.translucent,
@@ -78,7 +78,7 @@ class _RichTextMarqueeState extends State<RichTextMarquee> {
                   // Handle tap if needed
                 },
                 child: AnimatedContainer(
-                  duration: Duration(milliseconds: 300),
+                  duration: const Duration(milliseconds: 300),
                   transform: Matrix4.translationValues(-_scrollPosition, 0, 0),
                   child: RichText(
                     text: textSpan,

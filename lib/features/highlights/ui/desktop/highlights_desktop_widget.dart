@@ -1,6 +1,5 @@
 import 'package:anuj_yadav/design/constants/app_images.dart';
 import 'package:anuj_yadav/design/utils/app_colors.dart';
-import 'package:anuj_yadav/design/widgets/app_image_widget.dart';
 import 'package:anuj_yadav/design/widgets/buttons/app_outlined_button.dart';
 import 'package:anuj_yadav/details/hobby.dart';
 import 'package:flutter/material.dart';
@@ -115,7 +114,8 @@ class HighlightsDesktopWidget extends StatelessWidget {
                   text,
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
-                  // style: TextStyle(fontSize: w / 80),
+                  style: const TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.w700),
                 ),
                 const SizedBox(height: 10),
                 if (showButton)
@@ -123,7 +123,8 @@ class HighlightsDesktopWidget extends StatelessWidget {
                     cursor: SystemMouseCursors.click,
                     child: AppOutlinedButton(
                       title: buttonText,
-                      textStyle: const TextStyle(fontSize: 12),
+                      textStyle: const TextStyle(
+                          fontSize: 12, fontWeight: FontWeight.w800),
                       onTap: () {
                         if (buttonText == "See more") {
                           Navigator.push(context, MaterialPageRoute(

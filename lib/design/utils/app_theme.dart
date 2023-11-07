@@ -1,5 +1,6 @@
 import 'package:anuj_yadav/design/utils/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
   static final ThemeData lightTheme = ThemeData(
@@ -21,12 +22,12 @@ class AppTheme {
       elevation: 0,
     ),
     textTheme: const TextTheme(
-      headline6: TextStyle(
+      titleLarge: TextStyle(
         color: Colors.black,
         fontSize: 18,
         fontWeight: FontWeight.w600,
       ),
-      bodyText2: TextStyle(
+      bodyMedium: TextStyle(
         color: Colors.black,
         fontSize: 16,
         fontWeight: FontWeight.normal,
@@ -35,7 +36,7 @@ class AppTheme {
   );
 
   static final ThemeData darkTheme = ThemeData(
-    fontFamily: 'Preah',
+    fontFamily: GoogleFonts.robotoSerif().fontFamily,
     brightness: Brightness.dark,
     primaryColor: AppColors.purple,
     scaffoldBackgroundColor: AppColors.bgColor,
@@ -54,12 +55,12 @@ class AppTheme {
           const TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
     ),
     textTheme: const TextTheme(
-      headline6: TextStyle(
+      titleLarge: TextStyle(
         color: Colors.white,
         fontSize: 18,
         fontWeight: FontWeight.w600,
       ),
-      bodyText2: TextStyle(
+      bodyMedium: TextStyle(
         color: Colors.white,
         fontSize: 16,
         fontWeight: FontWeight.normal,

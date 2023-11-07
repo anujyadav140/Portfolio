@@ -1,8 +1,8 @@
 import 'package:anuj_yadav/design/constants/app_images.dart';
 import 'package:anuj_yadav/design/utils/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:social_media_flutter/social_media_flutter.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'dart:html' as html;
 
 class IntroMobileWidget extends StatelessWidget {
@@ -34,9 +34,9 @@ class IntroMobileWidget extends StatelessWidget {
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                    style: const TextStyle(
+                    style: TextStyle(
                         color: Colors.white,
-                        fontFamily: 'Preah',
+                        fontFamily: GoogleFonts.robotoSerif().fontFamily,
                         fontSize: 24,
                         height: 1),
                     children: [
@@ -72,10 +72,10 @@ class IntroMobileWidget extends StatelessWidget {
               RichText(
                 textAlign: TextAlign.center,
                 text: TextSpan(
-                    style: const TextStyle(
+                    style: TextStyle(
                         color: Colors.white,
                         height: 1.4,
-                        fontFamily: 'Preah',
+                        fontFamily: GoogleFonts.robotoSerif().fontFamily,
                         fontSize: 32,
                         fontWeight: FontWeight.bold),
                     children: [
@@ -91,27 +91,29 @@ class IntroMobileWidget extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const Text(
+                  Text(
                     "I'm a Software Engineer & ",
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                        color: Colors.white, fontFamily: 'Preah', fontSize: 16),
+                        color: Colors.white,
+                        fontFamily: GoogleFonts.robotoSerif().fontFamily,
+                        fontSize: 16),
                   ),
                   RichText(
                     textAlign: TextAlign.center,
-                    text: const TextSpan(
+                    text: TextSpan(
                         style: TextStyle(
                             color: Colors.white,
-                            fontFamily: 'Preah',
+                            fontFamily: GoogleFonts.robotoSerif().fontFamily,
                             fontSize: 16,
                             fontWeight: FontWeight.bold),
                         children: [
                           TextSpan(
                               text: ' a full stack dev ',
                               style: TextStyle(
-                                  backgroundColor: Colors.yellowAccent,
-                                  color: Colors.black)),
-                          TextSpan(text: ' who loves to create stuff!')
+                                  backgroundColor: Colors.grey[700],
+                                  color: Colors.grey[100])),
+                          const TextSpan(text: ' who loves to create stuff!')
                         ]),
                   ),
                 ],

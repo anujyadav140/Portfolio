@@ -1,10 +1,9 @@
 import 'package:anuj_yadav/design/constants/app_animations.dart';
 import 'package:anuj_yadav/design/constants/app_images.dart';
-import 'package:anuj_yadav/design/utils/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:rive/rive.dart';
 import 'package:social_media_flutter/social_media_flutter.dart';
-import 'package:url_launcher/url_launcher.dart';
 import 'dart:html' as html;
 
 class IntroDesktopWidget extends StatelessWidget {
@@ -19,12 +18,12 @@ class IntroDesktopWidget extends StatelessWidget {
       child: Stack(
         children: [
           const Padding(
-            padding: EdgeInsets.only(left: 800.0),
+            padding: EdgeInsets.only(left: 900.0),
             child: Align(
               alignment: Alignment.bottomRight,
               child: RiveAnimation.asset(
                 AppAnimations.introAnimation,
-                stateMachines: ['Motion'],
+                stateMachines: ['State Machine 1'],
               ),
             ),
           ),
@@ -50,13 +49,17 @@ class IntroDesktopWidget extends StatelessWidget {
                         text: TextSpan(
                             style: TextStyle(
                                 color: Colors.white,
-                                fontFamily: 'Preah',
+                                fontFamily:
+                                    GoogleFonts.robotoSerif().fontFamily,
                                 fontSize: w / 40),
                             children: [
                               const TextSpan(text: 'I am '),
                               TextSpan(
                                   text: 'Anuj Yadav ',
-                                  style: TextStyle(color: AppColors.purple))
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    backgroundColor: Colors.grey[600],
+                                  ))
                             ]),
                       ),
                       const SizedBox(height: 20),
@@ -69,17 +72,19 @@ class IntroDesktopWidget extends StatelessWidget {
                             style: TextStyle(
                                 color: Colors.white,
                                 height: 1.2,
-                                fontFamily: 'Preah',
+                                fontFamily:
+                                    GoogleFonts.robotoSerif().fontFamily,
                                 fontSize: w / 20,
                                 fontWeight: FontWeight.bold),
-                            children: [
-                              const TextSpan(
-                                  text: 'Who writes code to bring\n'),
-                              const TextSpan(text: 'ideas to '),
+                            children: const [
+                              TextSpan(text: 'Who writes code to bring\n'),
+                              TextSpan(text: 'ideas to '),
                               TextSpan(
                                   text: 'life',
-                                  style: TextStyle(color: AppColors.purple)),
-                              const TextSpan(text: '...')
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                  )),
+                              TextSpan(text: '...')
                             ]),
                       ),
                     ],
@@ -95,7 +100,7 @@ class IntroDesktopWidget extends StatelessWidget {
                     style: TextStyle(
                         color: Colors.white,
                         height: 1.2,
-                        fontFamily: 'Preah',
+                        fontFamily: GoogleFonts.robotoSerif().fontFamily,
                         fontSize: w / 28),
                   ),
                   RichText(
@@ -103,16 +108,16 @@ class IntroDesktopWidget extends StatelessWidget {
                         style: TextStyle(
                             color: Colors.white,
                             height: 1.2,
-                            fontFamily: 'Preah',
+                            fontFamily: GoogleFonts.robotoSerif().fontFamily,
                             fontSize: w / 44,
                             fontWeight: FontWeight.bold),
-                        children: const [
+                        children: [
                           TextSpan(
                               text: ' a full stack dev ',
                               style: TextStyle(
-                                  backgroundColor: Colors.yellowAccent,
-                                  color: Colors.black)),
-                          TextSpan(text: ' who loves to create stuff!')
+                                  backgroundColor: Colors.grey[700],
+                                  color: Colors.grey[100])),
+                          const TextSpan(text: ' who loves to create stuff!')
                         ]),
                   ),
                   const SizedBox(height: 20),

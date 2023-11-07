@@ -58,8 +58,8 @@ abstract class DioClient extends API {
         ),
       );
       return response;
-    } on DioError catch (e) {
-      throw e;
+    } on DioError {
+      rethrow;
     }
   }
 
@@ -86,8 +86,8 @@ abstract class DioClient extends API {
         data: body,
       );
       return response;
-    } on DioError catch (e) {
-      throw e;
+    } on DioError {
+      rethrow;
     }
   }
 
@@ -114,8 +114,8 @@ abstract class DioClient extends API {
         data: body,
       );
       return response;
-    } on DioError catch (e) {
-      throw e;
+    } on DioError {
+      rethrow;
     }
   }
 
@@ -124,8 +124,8 @@ abstract class DioClient extends API {
     try {
       final response = await _dio.download(path, savePath);
       return response;
-    } on DioError catch (e) {
-      throw e;
+    } on DioError {
+      rethrow;
     }
   }
 
@@ -152,8 +152,8 @@ abstract class DioClient extends API {
         data: body,
       );
       return response;
-    } on DioError catch (e) {
-      throw e;
+    } on DioError {
+      rethrow;
     }
   }
 
@@ -183,8 +183,8 @@ abstract class DioClient extends API {
         data: body,
       );
       return response;
-    } on DioError catch (e) {
-      throw e;
+    } on DioError {
+      rethrow;
     }
   }
 }

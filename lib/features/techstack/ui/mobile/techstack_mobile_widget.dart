@@ -2,6 +2,7 @@ import 'package:anuj_yadav/design/constants/app_constants.dart';
 import 'package:anuj_yadav/design/utils/app_colors.dart';
 import 'package:anuj_yadav/design/widgets/app_image_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class TechstackMobileWidget extends StatelessWidget {
@@ -18,9 +19,9 @@ class TechstackMobileWidget extends StatelessWidget {
             RichText(
               textAlign: TextAlign.center,
               text: TextSpan(
-                style: const TextStyle(
+                style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'Preah',
+                  fontFamily: GoogleFonts.robotoSerif().fontFamily,
                   fontSize: 24,
                 ),
                 children: [

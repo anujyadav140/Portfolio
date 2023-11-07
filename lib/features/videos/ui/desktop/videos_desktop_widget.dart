@@ -86,7 +86,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
           shortDescription:
               'A diary app which makes diary entries for you based on what you say, chat with your past diary entries all through the power of AI.',
           longDescription:
-              '''—This is a solo app I developed and published in my free time...\n—A poetry editor app powered by AI (chatGPT), which gives you recommendations and guides you to enhance your poetry writing skills. Write, analyse, generate poetical responses from a pretty good AI assistant.\n—I used Flutter framework to make the front end of the app, the backend is written using Typescript and is built using firebase cloud functions.\n—For the AI part I used the openAI LLM model to generate responses for the user, I used the Langchain framework for prompt engineering.\n—All the data is stored on the user's device, nothing is stored in the cloud.''',
+              '''—This is a solo app I am developing in my free time...\n—The user can chat with their previous diary entries going back as long as there is user's diary entries available.\n—Uses Pinecone vector database to store all the vector data for easy data retrieval.\n—A Diary app powered by LLMs, maintaining a diary can be tedious for some people, this app makes it easier to keep a diary; user just has to record themselves while speaking about anything, the app will transcribe it and the AI will rewrite it in any style you want.\n—After a diary entry is generated, the App gives each diary entry "Emotion Tags" to track the well being of the user.''',
           screenshots: [
             'https://cdn.discordapp.com/attachments/1170323444458594416/1170324193808748615/photo_6208268788944713798_y.jpg?ex=6558a057&is=65462b57&hm=0aa6ba1a94578a8e6f5952adeef86ee2ade77198628e0717d59755cbb79d4a17&',
             'https://cdn.discordapp.com/attachments/1170323444458594416/1170324194555338762/photo_6206016989131029831_y.jpg?ex=6558a057&is=65462b57&hm=f9be7fdb1f7713981d01e82eaaf140b255b618c2404eac2ef37f92c7157d9649&',
@@ -97,7 +97,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
           url: 'https://github.com/anujyadav140/Diary-AI',
           isLandscape: false,
           technologies:
-              'Flutter, OpenAI LLMs, Langchain, Provider State Management, Firebase & Pinecone DB'),
+              'Flutter, OpenAI LLMs, Langchain, Provider State Management, Firebase & Pinecone DB.'),
       Project(
           image:
               'https://cdn.discordapp.com/attachments/1170323495369052200/1170324029236838420/poetry-ai.png?ex=6558a030&is=65462b30&hm=be1d918fa21234eb2fe3f6c78ef3df958284cd6e33d4f7964015df640d5f6df7&',
@@ -268,8 +268,8 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         effect: const JumpingDotEffect(
           dotWidth: 20,
           dotHeight: 20,
-          dotColor: Colors.greenAccent,
-          activeDotColor: Color.fromARGB(255, 42, 97, 44),
+          dotColor: Colors.white,
+          activeDotColor: Color.fromRGBO(97, 97, 97, 1),
         ),
       );
 }

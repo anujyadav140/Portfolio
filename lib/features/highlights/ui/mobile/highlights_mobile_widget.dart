@@ -1,6 +1,5 @@
 import 'package:anuj_yadav/design/constants/app_images.dart';
 import 'package:anuj_yadav/design/utils/app_colors.dart';
-import 'package:anuj_yadav/design/widgets/app_image_widget.dart';
 import 'package:anuj_yadav/design/widgets/buttons/app_outlined_button.dart';
 import 'package:anuj_yadav/details/hobby.dart';
 import 'package:flutter/material.dart';
@@ -112,7 +111,8 @@ class HighlightsMobileWidget extends StatelessWidget {
                   text,
                   maxLines: 4,
                   overflow: TextOverflow.ellipsis,
-                  style: const TextStyle(fontSize: 12),
+                  style: const TextStyle(
+                      fontSize: 12, fontWeight: FontWeight.w700),
                 ),
                 if (showButton) const SizedBox(height: 10),
                 if (showButton)
