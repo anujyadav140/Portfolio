@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-// import 'package:flutter_html/flutter_html.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 class ProjectDetail extends StatefulWidget {
   final String projectTitle;
@@ -12,15 +12,20 @@ class ProjectDetail extends StatefulWidget {
   final String tech;
   final bool isLandscape;
   final List<String> projectScreenshots;
-  const ProjectDetail(
-      {super.key,
-      required this.projectTitle,
-      required this.projectShortDescription,
-      required this.projectScreenshots,
-      required this.projectLongDescription,
-      required this.projectUrl,
-      required this.isLandscape,
-      required this.tech});
+  final bool isVideo;
+  final String videoId;
+  const ProjectDetail({
+    super.key,
+    required this.projectTitle,
+    required this.projectShortDescription,
+    required this.projectScreenshots,
+    required this.projectLongDescription,
+    required this.projectUrl,
+    required this.isLandscape,
+    required this.tech,
+    required this.isVideo,
+    required this.videoId,
+  });
 
   @override
   State<ProjectDetail> createState() => _ProjectDetailState();
@@ -32,6 +37,12 @@ class _ProjectDetailState extends State<ProjectDetail> {
   @override
   Widget build(BuildContext context) {
     double w = MediaQuery.of(context).size.width;
+    double h = MediaQuery.of(context).size.height;
+    final _controller = YoutubePlayerController.fromVideoId(
+      videoId: widget.videoId,
+      autoPlay: false,
+      params: const YoutubePlayerParams(showFullscreenButton: true),
+    );
     return Scaffold(
       appBar: AppBar(
         title: GestureDetector(
@@ -118,17 +129,28 @@ class _ProjectDetailState extends State<ProjectDetail> {
               ),
             ],
           ),
-          Text(
-            "Demo Video:",
-            style: TextStyle(
-              fontSize: w / 40,
-            ),
-          ),
-//           Html(
-//             data: '''
-// <iframe width="560" height="315" src="https://www.youtube.com/embed/wC1tGSw9SE8?si=Z2VzQfEG3QxU15ca" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-// ''',
-//           )
+          widget.isVideo
+              ? Column(
+                  children: [
+                    Text(
+                      "Demo Video:",
+                      style: TextStyle(
+                        fontSize: w / 40,
+                      ),
+                    ),
+                    const SizedBox(height: 25),
+                    SizedBox(
+                      width: w * 0.5,
+                      height: h * 0.6,
+                      child: YoutubePlayer(
+                        controller: _controller,
+                        aspectRatio: 16 / 9,
+                      ),
+                    ),
+                    SizedBox(height: h * 0.1),
+                  ],
+                )
+              : Container(),
         ]),
       ),
     );
