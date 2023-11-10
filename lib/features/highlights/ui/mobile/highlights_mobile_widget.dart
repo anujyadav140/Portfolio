@@ -125,7 +125,7 @@ class HighlightsMobileWidget extends StatelessWidget {
                         if (buttonText == "See more") {
                           Navigator.push(context, MaterialPageRoute(
                             builder: (context) {
-                              return const Hobbies();
+                              return const Hobbies(key: null,);
                             },
                           ));
                         } else if (buttonText == "See Projects") {}
