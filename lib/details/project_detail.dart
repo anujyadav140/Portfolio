@@ -55,7 +55,7 @@ class _ProjectDetailState extends State<ProjectDetail> {
                 child: Text(
                   "${widget.projectTitle} - ${widget.projectUrl}",
                   style: TextStyle(
-                    fontSize: w / 80,
+                    fontSize: w / 50,
                     fontWeight: FontWeight.bold,
                   ),
                 ))),

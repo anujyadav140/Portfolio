@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:anuj_yadav/design/constants/app_animations.dart';
 import 'package:anuj_yadav/design/constants/app_images.dart';
 import 'package:flutter/material.dart';
@@ -17,15 +18,33 @@ class IntroDesktopWidget extends StatelessWidget {
       height: MediaQuery.of(context).size.height,
       child: Stack(
         children: [
-          const Padding(
-            padding: EdgeInsets.only(left: 900.0),
-            child: Align(
-              alignment: Alignment.bottomRight,
-              child: RiveAnimation.asset(
-                AppAnimations.introAnimation,
-                stateMachines: ['State Machine 1'],
+          const Positioned(
+            left: 800.0,
+            top: 350.0,
+            child: Stack(children: [
+              SizedBox(
+                width: 300,
+                height: 300,
+                child: RiveAnimation.asset(
+                  AppAnimations.introAnimation,
+                  stateMachines: ['State Machine 1'],
+                ),
               ),
-            ),
+              // Positioned(
+              //   left: 25, // Adjust the position as needed
+              //   top: 50, // Adjust the position as needed
+              //   child: AnimatedTextKit(
+              //     animatedTexts: [
+              //       TypewriterAnimatedText('Welcome to Anuj`s Portfolio!'),
+              //       TypewriterAnimatedText('Design first, then code'),
+              //       TypewriterAnimatedText(
+              //           'Do not patch bugs out, rewrite them'),
+              //       TypewriterAnimatedText(
+              //           'Do not test bugs out, design them out'),
+              //     ],
+              //   ),
+              // ),
+            ]),
           ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
