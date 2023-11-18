@@ -179,6 +179,26 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
         isLandscape: true,
         technologies:
             'React, Nextjs, Typescript, Express, OpenAI LLMs, Langchain & Pinecone',
+        isVideo: true,
+        videoId: 'OQ6zPnUIjXk&ab',
+      ),
+      Project(
+        image:
+            'https://cdn.discordapp.com/attachments/1174645973570568283/1174678345749901352/Screenshot_2023-11-16_095457.png?ex=65687776&is=65560276&hm=c23dfb0676366d2105fdb9a77aa1f39f873b341dd408b49dc7bce772cac8fec2&',
+        name: 'Commentary AI',
+        shortDescription:
+            'An AI Project built on streamlit, upload a video add AI generated voiceover to it, using GPT-4 Vision, TTS and synchronisation.',
+        longDescription:
+            '''—Another one of my solo projects, It is a streamlit AI project where user uploads a short video and the AI generates voiceover for it and then TTS is generated and the voiceover is synchronised with the video.\n—It uses GPT-4 Vision where the video is converted into multiple images so that the GPT-4 Vision API can understand it, also the user can add their own custom prompt to change how the voiceover will be generated.\n—Text-to-Speech is used to convert the voiceover text and synchronised finally with the video.''',
+        screenshots: [
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646100192399370/Screenshot_2023-11-16_095457.png?ex=6568596e&is=6555e46e&hm=46ffc9b549dbf00c8ddb45bec057b506196dc5d378fd7b0fa2b7d543dd64115d&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646104814530622/Screenshot_2023-11-16_095534.png?ex=6568596f&is=6555e46f&hm=d40847765006b1a9a29ace7c8fe4a38a1bdfc7d8f8f8dc664b158ef753a2a842&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105271717918/Screenshot_2023-11-16_095603.png?ex=6568596f&is=6555e46f&hm=d7ae705a384d9bb024825f75626f2c4c51d690ee8878744b8039f7b8dfde8b44&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105825349652/Screenshot_2023-11-16_095637.png?ex=6568596f&is=6555e46f&hm=9f4cce9b6165558a5a5a18bf091333ad20c16461b8a30e8202604f85a16e2183&',
+        ],
+        url: 'https://github.com/anujyadav140/commentary-ai',
+        isLandscape: true,
+        technologies: 'Python, Streamlit, numpy, opencv-python, OpenAI',
         isVideo: false,
         videoId: '',
       ),
