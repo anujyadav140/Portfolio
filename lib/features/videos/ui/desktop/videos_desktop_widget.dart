@@ -181,7 +181,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         technologies:
             'React, Nextjs, Typescript, Express, OpenAI LLMs, Langchain & Pinecone',
         isVideo: true,
-        videoId: 'OQ6zPnUIjXk&ab',
+        videoId: 'OQ6zPnUIjXk',
       ),
       Project(
         image:

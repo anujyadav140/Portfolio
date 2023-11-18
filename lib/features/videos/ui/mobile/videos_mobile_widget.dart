@@ -180,7 +180,7 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
         technologies:
             'React, Nextjs, Typescript, Express, OpenAI LLMs, Langchain & Pinecone',
         isVideo: true,
-        videoId: 'OQ6zPnUIjXk&ab',
+        videoId: 'OQ6zPnUIjXk',
       ),
       Project(
         image:
