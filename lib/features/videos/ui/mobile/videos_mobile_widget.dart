@@ -221,8 +221,8 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
         isLandscape: true,
         technologies:
             'Flutter, Python, Flask, Syllapy, NLTK, pronouncing, CMUDict',
-        isVideo: false,
-        videoId: '',
+        isVideo: true,
+        videoId: 'opA6kChWWd0',
       ),
       Project(
           image:
