@@ -199,8 +199,8 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
         url: 'https://github.com/anujyadav140/commentary-ai',
         isLandscape: true,
         technologies: 'Python, Streamlit, numpy, opencv-python, OpenAI',
-        isVideo: false,
-        videoId: '',
+        isVideo: true,
+        videoId: 'EfmhpX2SjN8',
       ),
       Project(
         image:

@@ -200,8 +200,8 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         url: 'https://github.com/anujyadav140/commentary-ai',
         isLandscape: true,
         technologies: 'Python, Streamlit, numpy, opencv-python, OpenAI',
-        isVideo: false,
-        videoId: '',
+        isVideo: true,
+        videoId: 'EfmhpX2SjN8',
       ),
       Project(
         image:
