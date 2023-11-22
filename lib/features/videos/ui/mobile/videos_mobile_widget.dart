@@ -127,8 +127,8 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
         isLandscape: false,
         technologies:
             'Flutter, OpenAI LLMs, Langchain, Hive, Provider State Management, Typescript & Firebase.',
-        isVideo: false,
-        videoId: '',
+        isVideo: true,
+        videoId: '3J-_KV70ZLc',
       ),
       Project(
         image:
