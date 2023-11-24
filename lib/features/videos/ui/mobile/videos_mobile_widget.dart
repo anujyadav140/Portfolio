@@ -59,7 +59,7 @@ class _VideosMobileWidgetState extends State<VideosMobileWidget> {
               const SizedBox(height: 20),
               CarouselSlider(
                 options: CarouselOptions(
-                  height: 400,
+                  height: 325,
                   enlargeCenterPage: false,
                   enableInfiniteScroll: false,
                   autoPlay: false,

@@ -60,7 +60,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
               const SizedBox(height: 40),
               CarouselSlider(
                 options: CarouselOptions(
-                  height: 400,
+                  height: 320,
                   enlargeCenterPage: false,
                   enableInfiniteScroll: false,
                   autoPlay: false,
@@ -230,7 +230,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
               'https://cdn.discordapp.com/attachments/1170323730220716083/1170323788416692314/chatting-app.png?ex=65589ff6&is=65462af6&hm=28887465327649922ab882012073e12d9a86a2e49a9b027009000ea658abc344&',
           name: 'Chatting App',
           shortDescription:
-              'A cross-platform real time chatting app with multimedia support, voice texts and even voice commands, built using flutter and firebase.',
+              'A cross-platform chatting app with multimedia support, voice texts and even voice commands, built using flutter and firebase.',
           longDescription:
               '''—Side project I did to get accustomed to Firebase and Native android app development and utilizing the Speech Recognition APIs in the OS.\n—This chatting app has multimedia support, voice texts and even voice commands.\n—Implemented voice command features to navigate between pages and logout (more voice commands can be added-), speech recognition was done with the help of native speech recognition api in android.\n—Even implemented chatGPT & Dall-E as one of the chatting options to get accustomed to these new technologies.''',
           screenshots: [
@@ -285,15 +285,24 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
                     ),
                     const SizedBox(height: 5),
                     Text(project.shortDescription),
+                    const SizedBox(height: 10),
                     GestureDetector(
-                      onTap: () {
-                        final Uri url = Uri.parse(project.url);
-                        launchUrl(url);
-                      },
-                      child: Text(
-                        "url: ${project.url}",
-                      ),
-                    ),
+                        onTap: () {
+                          final Uri url = Uri.parse(project.url);
+                          launchUrl(url);
+                        },
+                        child: RichText(
+                          text: TextSpan(
+                            children: [
+                              TextSpan(
+                                text: project.url,
+                                style: const TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ],
+                          ),
+                        )),
                   ],
                 ),
               ),
