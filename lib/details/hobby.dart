@@ -32,6 +32,8 @@ class _HobbiesState extends State<Hobbies> {
                   'https://cdn.discordapp.com/attachments/889189690052325396/1173583921737388032/Screenshot_2023-11-13-16-30-54-817_com.instagram.android-edit.jpg?ex=65647c33&is=65520733&hm=f10b836a273b9cca9bc4aec1317b513209c5b091fa0fba9319d6ccb506b32193&',
                   'https://cdn.discordapp.com/attachments/889189690052325396/1173627358436151327/Anuj1_1.gif?ex=6564a4a7&is=65522fa7&hm=d3c9011675c034583ebdb0e79c8773a785b7df72b7d1dcc7bbc1f0661f7b6690&',
                   'https://cdn.discordapp.com/attachments/889189690052325396/1173635521193451630/Screenshot_2023-11-13-20-17-22-131_com.instagram.android-edit.jpg?ex=6564ac41&is=65523741&hm=95087c06b137179f9d59a057e31e8ab1513ae2de80c7ea828f2be3c0cea075c7&',
+                  'https://cdn.discordapp.com/attachments/1178553564235321384/1178601644892626964/Screenshot_2023-11-27_124725.png?ex=6576bd51&is=65644851&hm=41a3d5211197b6474f1afa0d80686996bed5e72d0cd8ce3d02542ecfb5bad556&',
+                  'https://cdn.discordapp.com/attachments/1178553564235321384/1178601624269234186/Screenshot_2023-11-27_131137.png?ex=6576bd4c&is=6564484c&hm=bfd153b8116c9a30387c0cff04cdc9cc2dac0d2c9874a3dab1f4e8511349c2d0&',
                 )),
           ),
         ],
@@ -57,8 +59,16 @@ class _HobbiesState extends State<Hobbies> {
   }
 }
 
-Widget _buildStaggeredGridView(Color color1, String link1, String link2,
-    String link3, String link4, String link5, String link6) {
+Widget _buildStaggeredGridView(
+    Color color1,
+    String link1,
+    String link2,
+    String link3,
+    String link4,
+    String link5,
+    String link6,
+    String link7,
+    String link8) {
   return StaggeredGrid.count(
     crossAxisCount: 4,
     mainAxisSpacing: 4,
@@ -145,6 +155,30 @@ Widget _buildStaggeredGridView(Color color1, String link1, String link2,
             child: RiveAnimation.asset(
               AppAnimations.livingRoomAnimation,
             ),
+          ),
+        ),
+      ),
+      //poem
+      StaggeredGridTile.count(
+        crossAxisCellCount: 2,
+        mainAxisCellCount: 2,
+        child: Container(
+          color: color1,
+          child: Image.network(
+            link7,
+            fit: BoxFit.fitHeight,
+          ),
+        ),
+      ),
+      //poem
+      StaggeredGridTile.count(
+        crossAxisCellCount: 2,
+        mainAxisCellCount: 2,
+        child: Container(
+          color: color1,
+          child: Image.network(
+            link8,
+            fit: BoxFit.fitHeight,
           ),
         ),
       ),
