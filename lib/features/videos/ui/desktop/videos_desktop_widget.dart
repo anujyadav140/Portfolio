@@ -133,6 +133,72 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
       ),
       Project(
         image:
+            'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113055821844/wiki-ai.png?ex=6558a044&is=65462b44&hm=61099f3102408f3ad76e42df6cd0d4836e34e740ab130488194a18b0e7597feb&',
+        name: 'Wiki-AI',
+        shortDescription:
+            'Wiki-AI uses OpenAI & Langchain to generate summaries of any Wikipedia article you want-',
+        longDescription:
+            '''—This is a solo app I developed in my free time...\n—I was excited about the possibilities of Large Language Models and wanted to use it for summarization purposes.\n—Wiki-AI is an LLM Project, Where in you can generate summaries of Wikipedia articles through invoking openAI APIs.\n— I used Langchain framework for prompt engineering and used vector search for slicing and generating relevant and accurate information.\n—I used Wikipedia API for extracting data for the summary generation.''',
+        screenshots: [
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113513005137/wiki-ai-ss1.png?ex=6558a044&is=65462b44&hm=5495f5293894e1b0ddf7b95025647cd92664839ce12e2a2585672194c6c507a6&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113953411072/wiki-ai-ss2.png?ex=6558a044&is=65462b44&hm=8251e377f89ba2eea4e5513d7819f2811ae546eaad988b794fcff76f848ad40d&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324114351861850/wiki-ai-ss3.png?ex=6558a044&is=65462b44&hm=6c479a0bfd980c325b7901d215e4d488016475e609edae50ab7dda10d4644206&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324114771296337/wiki-ai-ss4.png?ex=6558a044&is=65462b44&hm=95c73017f07e162b483d66607e5aa2e3c771f44854d290428f60d78d42870e5b&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115127816223/wiki-ai-ss5.png?ex=6558a044&is=65462b44&hm=d68c4a7bedc5e5dc3278784c96f6e59500ebc6e0655977918bcaa4520f464ef9&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115538849814/wiki-ai-ss6.png?ex=6558a044&is=65462b44&hm=306a977780a266b948dfaa74e156ca47d98195a077a80df038662f4cd3af8687&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115933118504/wiki-ai-ss7.png?ex=6558a044&is=65462b44&hm=563f0ea42f7164409048be14cd761e682e6d79796015b250129adad16a2c675e&',
+        ],
+        url: 'https://wiki-ai.vercel.app/',
+        isLandscape: true,
+        technologies:
+            'React, Nextjs, Typescript, Express, OpenAI LLMs, Langchain & Pinecone',
+        isVideo: true,
+        videoId: 'OQ6zPnUIjXk',
+      ),
+      Project(
+        image:
+            'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301216485506/poetry-analysis.png?ex=6558a070&is=65462b70&hm=4745c61a2fd5534424e705a79ad6950cce77d03729f32207af66ca9c05f4b6c4&',
+        name: 'Poetry Analysis',
+        shortDescription:
+            'A cross-platform project in which user can write up a poem in the editor and analyze the poem through Machine Learning.',
+        longDescription:
+            '''—Another one of my solo projects, It is a cross-platform project in which user can write up a poem in the editor and analyze the poem through Machine Learning.\n—Finds the metre, rhyme scheme and even the poetry type.\n—Using the CMUDict (Carnegie Mellon University Dict.) to find the stressed and unstressed syllables of a word.\n—Compared them against the common forms using Levenshtein distance.''',
+        screenshots: [
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301593989210/poetry-analysis-ss1.png?ex=6558a071&is=65462b71&hm=4d4bd10c49a9f6e83b63103c6fb5f8c17f18c30a90d5168e84a50db839c7c6d6&',
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301963079680/poetry-analysis-ss2.png?ex=6558a071&is=65462b71&hm=04cb05b96cc82faff31ae8b42af9f2a6f43ec90f9cb9fdb59998e0dc3ffc9f2f&',
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324302361530460/poetry-analysis-ss3.png?ex=6558a071&is=65462b71&hm=cdb61a44f644fd5847bab20f556525581043ef7305bad4caad4603c3b906624e&',
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324302856466492/poetry-analysis-ss4.png?ex=6558a071&is=65462b71&hm=015aa1ae50cbe6850fd6002b9b85d1ca2b1a90e6b3d0e0d3f4fca56afe735a8f&',
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324303212974141/poetry-analysis-ss5.png?ex=6558a071&is=65462b71&hm=dcc8699aa8b7ed461202bd3f3ff1b7792fcc432dc62e401cbd66087c7d934f51&',
+        ],
+        url: 'https://poetry-analysis.web.app/#/',
+        isLandscape: true,
+        technologies:
+            'Flutter, Python, Flask, Syllapy, NLTK, pronouncing, CMUDict',
+        isVideo: true,
+        videoId: 'opA6kChWWd0',
+      ),
+      Project(
+        image:
+            'https://cdn.discordapp.com/attachments/1174645973570568283/1174678345749901352/Screenshot_2023-11-16_095457.png?ex=65687776&is=65560276&hm=c23dfb0676366d2105fdb9a77aa1f39f873b341dd408b49dc7bce772cac8fec2&',
+        name: 'Commentary AI',
+        shortDescription:
+            'An AI Project built on streamlit, upload a video add AI generated voiceover to it, using GPT-4 Vision, TTS and synchronisation.',
+        longDescription:
+            '''—Another one of my solo projects, It is a streamlit AI project where user uploads a short video and the AI generates voiceover for it and then TTS is generated and the voiceover is synchronised with the video.\n—It uses GPT-4 Vision where the video is converted into multiple images so that the GPT-4 Vision API can understand it, also the user can add their own custom prompt to change how the voiceover will be generated.\n—Text-to-Speech is used to convert the voiceover text and synchronised finally with the video.''',
+        screenshots: [
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646100192399370/Screenshot_2023-11-16_095457.png?ex=6568596e&is=6555e46e&hm=46ffc9b549dbf00c8ddb45bec057b506196dc5d378fd7b0fa2b7d543dd64115d&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646104814530622/Screenshot_2023-11-16_095534.png?ex=6568596f&is=6555e46f&hm=d40847765006b1a9a29ace7c8fe4a38a1bdfc7d8f8f8dc664b158ef753a2a842&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105271717918/Screenshot_2023-11-16_095603.png?ex=6568596f&is=6555e46f&hm=d7ae705a384d9bb024825f75626f2c4c51d690ee8878744b8039f7b8dfde8b44&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105825349652/Screenshot_2023-11-16_095637.png?ex=6568596f&is=6555e46f&hm=9f4cce9b6165558a5a5a18bf091333ad20c16461b8a30e8202604f85a16e2183&',
+        ],
+        url: 'https://github.com/anujyadav140/commentary-ai',
+        isLandscape: true,
+        technologies: 'Python, Streamlit, numpy, opencv-python, OpenAI',
+        isVideo: true,
+        videoId: 'EfmhpX2SjN8',
+      ),
+      Project(
+        image:
             'https://cdn.discordapp.com/attachments/1170312411874611233/1170315870405394503/Screenshot_2023-11-03_075111.png?ex=65589896&is=65462396&hm=941d55097c91dece413c6bd6e3063b0d87b9f79c78309350774c093a2d3485e2&',
         name: 'Artisan',
         shortDescription:
@@ -160,77 +226,11 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         videoId: '',
       ),
       Project(
-        image:
-            'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113055821844/wiki-ai.png?ex=6558a044&is=65462b44&hm=61099f3102408f3ad76e42df6cd0d4836e34e740ab130488194a18b0e7597feb&',
-        name: 'Wiki-AI',
-        shortDescription:
-            'Wiki-AI uses OpenAI & Langchain to generate summaries of any Wikipedia article you want-',
-        longDescription:
-            '''—This is a solo app I developed in my free time...\n—I was excited about the possibilities of Large Language Models and wanted to use it for summarization purposes.\n—Wiki-AI is an LLM Project, Where in you can generate summaries of Wikipedia articles through invoking openAI APIs.\n— I used Langchain framework for prompt engineering and used vector search for slicing and generating relevant and accurate information.\n—I used Wikipedia API for extracting data for the summary generation.''',
-        screenshots: [
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113513005137/wiki-ai-ss1.png?ex=6558a044&is=65462b44&hm=5495f5293894e1b0ddf7b95025647cd92664839ce12e2a2585672194c6c507a6&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113953411072/wiki-ai-ss2.png?ex=6558a044&is=65462b44&hm=8251e377f89ba2eea4e5513d7819f2811ae546eaad988b794fcff76f848ad40d&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324114351861850/wiki-ai-ss3.png?ex=6558a044&is=65462b44&hm=6c479a0bfd980c325b7901d215e4d488016475e609edae50ab7dda10d4644206&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324114771296337/wiki-ai-ss4.png?ex=6558a044&is=65462b44&hm=95c73017f07e162b483d66607e5aa2e3c771f44854d290428f60d78d42870e5b&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115127816223/wiki-ai-ss5.png?ex=6558a044&is=65462b44&hm=d68c4a7bedc5e5dc3278784c96f6e59500ebc6e0655977918bcaa4520f464ef9&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115538849814/wiki-ai-ss6.png?ex=6558a044&is=65462b44&hm=306a977780a266b948dfaa74e156ca47d98195a077a80df038662f4cd3af8687&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115933118504/wiki-ai-ss7.png?ex=6558a044&is=65462b44&hm=563f0ea42f7164409048be14cd761e682e6d79796015b250129adad16a2c675e&',
-        ],
-        url: 'https://wiki-ai.vercel.app/',
-        isLandscape: true,
-        technologies:
-            'React, Nextjs, Typescript, Express, OpenAI LLMs, Langchain & Pinecone',
-        isVideo: true,
-        videoId: 'OQ6zPnUIjXk',
-      ),
-      Project(
-        image:
-            'https://cdn.discordapp.com/attachments/1174645973570568283/1174678345749901352/Screenshot_2023-11-16_095457.png?ex=65687776&is=65560276&hm=c23dfb0676366d2105fdb9a77aa1f39f873b341dd408b49dc7bce772cac8fec2&',
-        name: 'Commentary AI',
-        shortDescription:
-            'An AI Project built on streamlit, upload a video add AI generated voiceover to it, using GPT-4 Vision, TTS and synchronisation.',
-        longDescription:
-            '''—Another one of my solo projects, It is a streamlit AI project where user uploads a short video and the AI generates voiceover for it and then TTS is generated and the voiceover is synchronised with the video.\n—It uses GPT-4 Vision where the video is converted into multiple images so that the GPT-4 Vision API can understand it, also the user can add their own custom prompt to change how the voiceover will be generated.\n—Text-to-Speech is used to convert the voiceover text and synchronised finally with the video.''',
-        screenshots: [
-          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646100192399370/Screenshot_2023-11-16_095457.png?ex=6568596e&is=6555e46e&hm=46ffc9b549dbf00c8ddb45bec057b506196dc5d378fd7b0fa2b7d543dd64115d&',
-          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646104814530622/Screenshot_2023-11-16_095534.png?ex=6568596f&is=6555e46f&hm=d40847765006b1a9a29ace7c8fe4a38a1bdfc7d8f8f8dc664b158ef753a2a842&',
-          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105271717918/Screenshot_2023-11-16_095603.png?ex=6568596f&is=6555e46f&hm=d7ae705a384d9bb024825f75626f2c4c51d690ee8878744b8039f7b8dfde8b44&',
-          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105825349652/Screenshot_2023-11-16_095637.png?ex=6568596f&is=6555e46f&hm=9f4cce9b6165558a5a5a18bf091333ad20c16461b8a30e8202604f85a16e2183&',
-        ],
-        url: 'https://github.com/anujyadav140/commentary-ai',
-        isLandscape: true,
-        technologies: 'Python, Streamlit, numpy, opencv-python, OpenAI',
-        isVideo: true,
-        videoId: 'EfmhpX2SjN8',
-      ),
-      Project(
-        image:
-            'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301216485506/poetry-analysis.png?ex=6558a070&is=65462b70&hm=4745c61a2fd5534424e705a79ad6950cce77d03729f32207af66ca9c05f4b6c4&',
-        name: 'Poetry Analysis',
-        shortDescription:
-            'A cross-platform project in which user can write up a poem in the editor and analyze the poem through Machine Learning.',
-        longDescription:
-            '''—Another one of my solo projects, It is a cross-platform project in which user can write up a poem in the editor and analyze the poem through Machine Learning.\n—Finds the metre, rhyme scheme and even the poetry type.\n—Using the CMUDict (Carnegie Mellon University Dict.) to find the stressed and unstressed syllables of a word.\n—Compared them against the common forms using Levenshtein distance.''',
-        screenshots: [
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301593989210/poetry-analysis-ss1.png?ex=6558a071&is=65462b71&hm=4d4bd10c49a9f6e83b63103c6fb5f8c17f18c30a90d5168e84a50db839c7c6d6&',
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301963079680/poetry-analysis-ss2.png?ex=6558a071&is=65462b71&hm=04cb05b96cc82faff31ae8b42af9f2a6f43ec90f9cb9fdb59998e0dc3ffc9f2f&',
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324302361530460/poetry-analysis-ss3.png?ex=6558a071&is=65462b71&hm=cdb61a44f644fd5847bab20f556525581043ef7305bad4caad4603c3b906624e&',
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324302856466492/poetry-analysis-ss4.png?ex=6558a071&is=65462b71&hm=015aa1ae50cbe6850fd6002b9b85d1ca2b1a90e6b3d0e0d3f4fca56afe735a8f&',
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324303212974141/poetry-analysis-ss5.png?ex=6558a071&is=65462b71&hm=dcc8699aa8b7ed461202bd3f3ff1b7792fcc432dc62e401cbd66087c7d934f51&',
-        ],
-        url: 'https://poetry-analysis.web.app/#/',
-        isLandscape: true,
-        technologies:
-            'Flutter, Python, Flask, Syllapy, NLTK, pronouncing, CMUDict',
-        isVideo: true,
-        videoId: 'opA6kChWWd0',
-      ),
-      Project(
           image:
               'https://cdn.discordapp.com/attachments/1170323730220716083/1170323788416692314/chatting-app.png?ex=65589ff6&is=65462af6&hm=28887465327649922ab882012073e12d9a86a2e49a9b027009000ea658abc344&',
           name: 'Chatting App',
           shortDescription:
-              'A cross-platform chatting app with multimedia support, voice texts and even voice commands, built using flutter and firebase.',
+              'A chatting app with multimedia support, voice texts and even voice commands, built using flutter and firebase.',
           longDescription:
               '''—Side project I did to get accustomed to Firebase and Native android app development and utilizing the Speech Recognition APIs in the OS.\n—This chatting app has multimedia support, voice texts and even voice commands.\n—Implemented voice command features to navigate between pages and logout (more voice commands can be added-), speech recognition was done with the help of native speech recognition api in android.\n—Even implemented chatGPT & Dall-E as one of the chatting options to get accustomed to these new technologies.''',
           screenshots: [
@@ -278,14 +278,16 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
                   children: [
                     // Image(image: project.image),
                     Image.network(project.image),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 5),
                     Text(
                       project.name,
                       style: const TextStyle(fontSize: 25),
                     ),
+                    Text(
+                      project.shortDescription,
+                      style: const TextStyle(fontSize: 16),
+                    ),
                     const SizedBox(height: 5),
-                    Text(project.shortDescription),
-                    const SizedBox(height: 10),
                     GestureDetector(
                         onTap: () {
                           final Uri url = Uri.parse(project.url);
