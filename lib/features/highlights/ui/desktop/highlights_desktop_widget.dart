@@ -61,7 +61,7 @@ class HighlightsDesktopWidget extends StatelessWidget {
                         false,
                         'AI - LLMS - Supervised Learning',
                         AppImages.pickerImage,
-                        'I am interested in LLMS, Generative AI, supervised learning. I like to build things using these technologies & solve problems. I have published my own App on playstore.',
+                        'I am interested in LLMS, Generative AI, supervised learning. I like to build things using these technologies & solve problems. I have published my own App.',
                         'See Projects'),
                     highlightContainer(
                         context,
