@@ -61,7 +61,7 @@ class HighlightsMobileWidget extends StatelessWidget {
                         false,
                         'AI - LLMS - Supervised Learning',
                         AppImages.pickerImage,
-                        'I am interested in LLMS, Generative AI, supervised learning etc. I like to build things utilizing these technologies and solve problems. I have published my own App on playstore.',
+                        'I am interested in LLMS, Generative AI, supervised learning. I like to build things using these technologies & solve problems. I have published my own App on playstore.',
                         'See Projects'),
                     highlightContainer(
                         context,
@@ -125,7 +125,9 @@ class HighlightsMobileWidget extends StatelessWidget {
                         if (buttonText == "See more") {
                           Navigator.push(context, MaterialPageRoute(
                             builder: (context) {
-                              return const Hobbies(key: null,);
+                              return const Hobbies(
+                                key: null,
+                              );
                             },
                           ));
                         } else if (buttonText == "See Projects") {}
