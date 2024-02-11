@@ -21,12 +21,6 @@ class _HobbiesState extends State<Hobbies> {
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: w / 50))),
       body: Column(
         children: [
-          Container(
-            color: Colors.blue,
-            height: 100,
-            width: 150,
-            child: Text('Blue Box'),
-          ),
           Expanded(
             child: _buildPage(
                 "",
