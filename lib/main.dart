@@ -16,7 +16,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: AppTheme.darkTheme,
+      theme: AppTheme.darkTheme.copyWith(
+          scrollbarTheme: ScrollbarThemeData(
+              thumbVisibility: MaterialStateProperty.all<bool>(true),
+              thickness: MaterialStateProperty.all<double>(8.0),
+              thumbColor: const MaterialStatePropertyAll(Colors.white))),
       title: 'Anuj Yadav👋 | Full Stack Dev',
       debugShowCheckedModeBanner: false,
       home: const HomePage(),
