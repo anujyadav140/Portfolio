@@ -85,18 +85,18 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
     projects = [
       Project(
         image:
-            'https://cdn.discordapp.com/attachments/1170323444458594416/1170372521112113203/diarify.png?ex=6558cd59&is=65465859&hm=923a610ffe41a4a4ea7b47ba0e09735c772139c20ca71c178ed1bd0cee7a8597&',
+            'https://cdn.discordapp.com/attachments/1170323444458594416/1170372521112113203/diarify.png?ex=65e33ad9&is=65d0c5d9&hm=9a6432394d1b1046381b3a052d2a90d2b4756792ebc5f1c0619f8f4a1b2f3a44&',
         name: 'Diarify',
         shortDescription:
             'A diary app which makes diary entries through speech, chat with your past diary entries all through the power of AI.',
         longDescription:
             '''—This is a solo app I am developing in my free time...\n—The user can chat with their previous diary entries going back as long as there is user's diary entries available.\n—Uses Pinecone vector database to store all the vector data for easy data retrieval.\n—A Diary app powered by LLMs, maintaining a diary can be tedious for some people, this app makes it easier to keep a diary; user just has to record themselves while speaking about anything, the app will transcribe it and the AI will rewrite it in any style you want.\n—After a diary entry is generated, the App gives each diary entry "Emotion Tags" to track the well being of the user.''',
         screenshots: [
-          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324193808748615/photo_6208268788944713798_y.jpg?ex=6558a057&is=65462b57&hm=0aa6ba1a94578a8e6f5952adeef86ee2ade77198628e0717d59755cbb79d4a17&',
-          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324194555338762/photo_6206016989131029831_y.jpg?ex=6558a057&is=65462b57&hm=f9be7fdb1f7713981d01e82eaaf140b255b618c2404eac2ef37f92c7157d9649&',
-          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324194156884048/photo_6206016989131029832_y.jpg?ex=6558a057&is=65462b57&hm=22f89c00f6677fdee2827dd42dc4c2154cd059f0e4e2083edeb2968f33e55a82&',
-          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324193083129946/photo_6208268788944713800_y.jpg?ex=6558a057&is=65462b57&hm=edb9a9f62591e24f398eb355e11fbbefbc2bf6edc6ae0b6eb46a32936c6aad0f&',
-          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324193422880848/photo_6208268788944713799_y.jpg?ex=6558a057&is=65462b57&hm=eaad520fcbb35d8db70549c6a09577cc5d40b98411b7bf9b61452658bd5f9044&',
+          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324193808748615/photo_6208268788944713798_y.jpg?ex=65e30dd7&is=65d098d7&hm=b80c86ea1018bd0d3ca283cbc334ef50ec4709c03cf013655f3272932e5de08c&',
+          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324194555338762/photo_6206016989131029831_y.jpg?ex=65e30dd7&is=65d098d7&hm=bc9b2038876bf19e652054facdf61038259fee33b3a7cd0254c91c61386a55b7&',
+          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324194156884048/photo_6206016989131029832_y.jpg?ex=65e30dd7&is=65d098d7&hm=348bde879dcf3bc97fca71b896889e16a572f50718511e1b82a1fa56e143acf5&',
+          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324193083129946/photo_6208268788944713800_y.jpg?ex=65e30dd7&is=65d098d7&hm=066fd99ed3dcbd4b555f726739fbe4944fe09dfb80a9ed800edd0e402cbe04d6&',
+          'https://cdn.discordapp.com/attachments/1170323444458594416/1170324193422880848/photo_6208268788944713799_y.jpg?ex=65e30dd7&is=65d098d7&hm=ebce87084321d5d8a7da8339795a6e7cc7fc30083ed7e75b2c9d61cc0f06bb45&',
         ],
         url: 'https://github.com/anujyadav140/Diary-AI',
         isLandscape: false,
@@ -107,21 +107,21 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
       ),
       Project(
         image:
-            'https://cdn.discordapp.com/attachments/1170323495369052200/1170324029236838420/poetry-ai.png?ex=6558a030&is=65462b30&hm=be1d918fa21234eb2fe3f6c78ef3df958284cd6e33d4f7964015df640d5f6df7&',
+            'https://cdn.discordapp.com/attachments/1170323495369052200/1170324029236838420/poetry-ai.png?ex=65e30db0&is=65d098b0&hm=dd967593a7a2daaaa5c0d1605aca48f558e76bedadaa07e685fd9ca5a16e01e9&',
         name: 'Poetry AI',
         shortDescription:
             'Published a poetry editor app that is powered by LLMs on the google playstore.',
         longDescription:
             '''—This is a solo app I developed and published in my free time...\n—A poetry editor app powered by AI (chatGPT), which gives you recommendations and guides you to enhance your poetry writing skills. Write, analyse, generate poetical responses from a pretty good AI assistant.\n—I used Flutter framework to make the front end of the app, the backend is written using Typescript and is built using firebase cloud functions.\n—For the AI part I used the openAI LLM model to generate responses for the user, I used the Langchain framework for prompt engineering.\n—All the data is stored on the user's device, nothing is stored in the cloud.''',
         screenshots: [
-          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324029614329936/poetry-ai-ss1.png?ex=6558a030&is=65462b30&hm=9ca87fe248489f51f660c444c2cf5129661d26f584d20576c735c5acebffb13b&',
-          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324029975052308/poetry-ai-ss2.png?ex=6558a030&is=65462b30&hm=a1d4e3c62fb2cb6dc06cfd07350d3dbdbac85ab17e6a4c248ba4710c541eb016&',
-          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324030335746120/poetry-ai-ss3.png?ex=6558a030&is=65462b30&hm=265afb880e7e4dab766fefaef8a89be8f039e91e514a4ad5953c60c01378385f&',
-          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324030717431808/poetry-ai-ss4.png?ex=6558a030&is=65462b30&hm=2c38ca4a3d065ea77f52d61853524b52d79da45a03ac65e048f6a71789039ee9&',
-          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324031099125820/poetry-ai-ss5.png?ex=6558a030&is=65462b30&hm=5de5f6a49b0e28abb52f86da7e8ccb8b4e1fa33b24f7f9b056052c22ca7f641e&',
-          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324031464013854/poetry-ai-ss6.png?ex=6558a030&is=65462b30&hm=956e4d58fb3b5d2ef0cd042c68a24a145badd0c67a7269dce49599cb3bf4f1f4&',
-          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324031845699584/poetry-ai-ss7.png?ex=6558a030&is=65462b30&hm=af2c9e8c9df0adfa62efd0e093af3f46d1b47673e941adc9958fb07671ae6d77&',
-          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324032206422026/poetry-ai-ss8.png?ex=6558a030&is=65462b30&hm=228b7e4e30545b4f19767f4d6f900f524bc4c2745597d1949510088ae927b722&',
+          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324029614329936/poetry-ai-ss1.png?ex=65e30db0&is=65d098b0&hm=ba8e33376e051d2b31cf816e3315fc022720cd3be85bb96f02fcf90916935d01&',
+          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324029975052308/poetry-ai-ss2.png?ex=65e30db0&is=65d098b0&hm=c7ba398d3995312601a7281e1885fb72bf3629aea3e80e7065bcdfe5d9b8d93c&',
+          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324030335746120/poetry-ai-ss3.png?ex=65e30db0&is=65d098b0&hm=b0dcca5e31c238347e12ccc9e65c605d2227e15cefb5b2b0a7193d1b4bb2527f&',
+          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324030717431808/poetry-ai-ss4.png?ex=65e30db0&is=65d098b0&hm=b36f8f67ff5e2367a1263636a1901e1c379b059de8111dbdc0ca3ad85e3ac97f&',
+          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324031099125820/poetry-ai-ss5.png?ex=65e30db0&is=65d098b0&hm=fac73d522e061603099a6954e9110ac0319b21654ecff63d3b281fc51cad03ff&',
+          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324031464013854/poetry-ai-ss6.png?ex=65e30db0&is=65d098b0&hm=ef3355927489f68b764ccb659754fc4f6a1ca5d0ac385e9ebb32db92645227a1&',
+          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324031845699584/poetry-ai-ss7.png?ex=65e30db0&is=65d098b0&hm=660b72af9b01a1cf8eafcfff760e604b84a6fc3aefffc7954238a64803c0fc48&',
+          'https://cdn.discordapp.com/attachments/1170323495369052200/1170324032206422026/poetry-ai-ss8.png?ex=65e30db0&is=65d098b0&hm=c456edb13bd69bee37a835c2ace004c99b3e2c80566b86ac6f9cee070146f4f6&',
         ],
         url:
             'https://play.google.com/store/apps/details?id=com.anujyadav.poetryai&pli=1',
@@ -133,20 +133,21 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
       ),
       Project(
         image:
-            'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113055821844/wiki-ai.png?ex=6558a044&is=65462b44&hm=61099f3102408f3ad76e42df6cd0d4836e34e740ab130488194a18b0e7597feb&',
+            'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113513005137/wiki-ai-ss1.png?ex=65e30dc4&is=65d098c4&hm=1c7416acad8a2085a2d48ec1e7b7a93d8db0e45005b3d0afa8b3b96e0e447031&',
         name: 'Wiki-AI',
         shortDescription:
             'Wiki-AI uses OpenAI & Langchain to generate summaries of any Wikipedia article you want-',
         longDescription:
             '''—This is a solo app I developed in my free time...\n—I was excited about the possibilities of Large Language Models and wanted to use it for summarization purposes.\n—Wiki-AI is an LLM Project, Where in you can generate summaries of Wikipedia articles through invoking openAI APIs.\n— I used Langchain framework for prompt engineering and used vector search for slicing and generating relevant and accurate information.\n—I used Wikipedia API for extracting data for the summary generation.''',
         screenshots: [
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113513005137/wiki-ai-ss1.png?ex=6558a044&is=65462b44&hm=5495f5293894e1b0ddf7b95025647cd92664839ce12e2a2585672194c6c507a6&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113953411072/wiki-ai-ss2.png?ex=6558a044&is=65462b44&hm=8251e377f89ba2eea4e5513d7819f2811ae546eaad988b794fcff76f848ad40d&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324114351861850/wiki-ai-ss3.png?ex=6558a044&is=65462b44&hm=6c479a0bfd980c325b7901d215e4d488016475e609edae50ab7dda10d4644206&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324114771296337/wiki-ai-ss4.png?ex=6558a044&is=65462b44&hm=95c73017f07e162b483d66607e5aa2e3c771f44854d290428f60d78d42870e5b&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115127816223/wiki-ai-ss5.png?ex=6558a044&is=65462b44&hm=d68c4a7bedc5e5dc3278784c96f6e59500ebc6e0655977918bcaa4520f464ef9&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115538849814/wiki-ai-ss6.png?ex=6558a044&is=65462b44&hm=306a977780a266b948dfaa74e156ca47d98195a077a80df038662f4cd3af8687&',
-          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115933118504/wiki-ai-ss7.png?ex=6558a044&is=65462b44&hm=563f0ea42f7164409048be14cd761e682e6d79796015b250129adad16a2c675e&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113513005137/wiki-ai-ss1.png?ex=65e30dc4&is=65d098c4&hm=1c7416acad8a2085a2d48ec1e7b7a93d8db0e45005b3d0afa8b3b96e0e447031&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113055821844/wiki-ai.png?ex=65e30dc4&is=65d098c4&hm=3fd348be35b18fd55c0c747395be4fdcd47a5627eeb88adffcd21c82b87a90b4&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113953411072/wiki-ai-ss2.png?ex=65e30dc4&is=65d098c4&hm=5ec7bddee5976e0ceab715185406b0e451ab85485e3ad6bd303ae2cdddd12b5c&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324114351861850/wiki-ai-ss3.png?ex=65e30dc4&is=65d098c4&hm=6af6299ff443b7f789db55b1a0c58b8efeab08dd83b949689de123efa70106de&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324114771296337/wiki-ai-ss4.png?ex=65e30dc4&is=65d098c4&hm=7a1160f357c149517ca63611988b688cf89ea01b450034384de489823c2f9a91&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115127816223/wiki-ai-ss5.png?ex=65e30dc4&is=65d098c4&hm=b2984cbdd919c278715a4fb88d67c3b644bd016e3d27af6e0f73a10ac7ec0a6a&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115538849814/wiki-ai-ss6.png?ex=65e30dc4&is=65d098c4&hm=0a0a1b5b37fec5d38154664b0056bf19411c6e44f6a9bfd2a0c8d838d0d977e8&',
+          'https://cdn.discordapp.com/attachments/1170324044185350164/1170324115933118504/wiki-ai-ss7.png?ex=65e30dc4&is=65d098c4&hm=62f308c30256bf33772138c74a17f7a6ad333eb36a78577c98ea90c2365b728c&',
         ],
         url: 'https://wiki-ai.vercel.app/',
         isLandscape: true,
@@ -157,18 +158,18 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
       ),
       Project(
         image:
-            'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301216485506/poetry-analysis.png?ex=6558a070&is=65462b70&hm=4745c61a2fd5534424e705a79ad6950cce77d03729f32207af66ca9c05f4b6c4&',
+            'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301216485506/poetry-analysis.png?ex=65e30df0&is=65d098f0&hm=134a9a733a66b376f786ab2c999db96f725c50656c8776f4eab5186948c42e72&',
         name: 'Poetry Analysis',
         shortDescription:
             'A cross-platform project in which user can write up a poem in the editor and analyze the poem through Machine Learning.',
         longDescription:
             '''—Another one of my solo projects, It is a cross-platform project in which user can write up a poem in the editor and analyze the poem through Machine Learning.\n—Finds the metre, rhyme scheme and even the poetry type.\n—Using the CMUDict (Carnegie Mellon University Dict.) to find the stressed and unstressed syllables of a word.\n—Compared them against the common forms using Levenshtein distance.''',
         screenshots: [
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301593989210/poetry-analysis-ss1.png?ex=6558a071&is=65462b71&hm=4d4bd10c49a9f6e83b63103c6fb5f8c17f18c30a90d5168e84a50db839c7c6d6&',
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301963079680/poetry-analysis-ss2.png?ex=6558a071&is=65462b71&hm=04cb05b96cc82faff31ae8b42af9f2a6f43ec90f9cb9fdb59998e0dc3ffc9f2f&',
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324302361530460/poetry-analysis-ss3.png?ex=6558a071&is=65462b71&hm=cdb61a44f644fd5847bab20f556525581043ef7305bad4caad4603c3b906624e&',
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324302856466492/poetry-analysis-ss4.png?ex=6558a071&is=65462b71&hm=015aa1ae50cbe6850fd6002b9b85d1ca2b1a90e6b3d0e0d3f4fca56afe735a8f&',
-          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324303212974141/poetry-analysis-ss5.png?ex=6558a071&is=65462b71&hm=dcc8699aa8b7ed461202bd3f3ff1b7792fcc432dc62e401cbd66087c7d934f51&',
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301593989210/poetry-analysis-ss1.png?ex=65e30df1&is=65d098f1&hm=c353c9d36d15e02042906a8a86945e106dd2f5094e014f19c73000880cea8da5&',
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301963079680/poetry-analysis-ss2.png?ex=65e30df1&is=65d098f1&hm=f81a57d82621bd9ba992ee777b380090fa397a398cd062b3d5abab768423ce0a&',
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324302361530460/poetry-analysis-ss3.png?ex=65e30df1&is=65d098f1&hm=050f69b80b6629cb2f835917fb98a67c1d299ed5658b153860d99c95d819c86f&',
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324302856466492/poetry-analysis-ss4.png?ex=65e30df1&is=65d098f1&hm=8db75d0b57680264150383d78b8e590ae338ee734f812d104addf9bf9d59acf9&',
+          'https://cdn.discordapp.com/attachments/1170324219461120120/1170324303212974141/poetry-analysis-ss5.png?ex=65e30df1&is=65d098f1&hm=b84541459407e81f73e3bc55bb24efc516ab3a402ea66a6eef839c7f37336b3d&',
         ],
         url: 'https://poetry-analysis.web.app/#/',
         isLandscape: true,
@@ -179,17 +180,17 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
       ),
       Project(
         image:
-            'https://cdn.discordapp.com/attachments/1174645973570568283/1174678345749901352/Screenshot_2023-11-16_095457.png?ex=65687776&is=65560276&hm=c23dfb0676366d2105fdb9a77aa1f39f873b341dd408b49dc7bce772cac8fec2&',
+            'https://cdn.discordapp.com/attachments/1174645973570568283/1174678345749901352/Screenshot_2023-11-16_095457.png?ex=65e9aa76&is=65d73576&hm=cfe26688058f04173c95b954dbf5004709b455e41e2e3517f4813c1e7b55d9b8&',
         name: 'Commentary AI',
         shortDescription:
             'An AI Project built on streamlit, upload a video add AI generated voiceover to it, using GPT-4 Vision, TTS and synchronisation.',
         longDescription:
             '''—Another one of my solo projects, It is a streamlit AI project where user uploads a short video and the AI generates voiceover for it and then TTS is generated and the voiceover is synchronised with the video.\n—It uses GPT-4 Vision where the video is converted into multiple images so that the GPT-4 Vision API can understand it, also the user can add their own custom prompt to change how the voiceover will be generated.\n—Text-to-Speech is used to convert the voiceover text and synchronised finally with the video.''',
         screenshots: [
-          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646100192399370/Screenshot_2023-11-16_095457.png?ex=6568596e&is=6555e46e&hm=46ffc9b549dbf00c8ddb45bec057b506196dc5d378fd7b0fa2b7d543dd64115d&',
-          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646104814530622/Screenshot_2023-11-16_095534.png?ex=6568596f&is=6555e46f&hm=d40847765006b1a9a29ace7c8fe4a38a1bdfc7d8f8f8dc664b158ef753a2a842&',
-          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105271717918/Screenshot_2023-11-16_095603.png?ex=6568596f&is=6555e46f&hm=d7ae705a384d9bb024825f75626f2c4c51d690ee8878744b8039f7b8dfde8b44&',
-          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105825349652/Screenshot_2023-11-16_095637.png?ex=6568596f&is=6555e46f&hm=9f4cce9b6165558a5a5a18bf091333ad20c16461b8a30e8202604f85a16e2183&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646100192399370/Screenshot_2023-11-16_095457.png?ex=65e98c6e&is=65d7176e&hm=6631de5342442e5c4ae3efb21ec7cb9d807db765c0e5abeb006ba66fcb7e4e23&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646104814530622/Screenshot_2023-11-16_095534.png?ex=65e98c6f&is=65d7176f&hm=258b301af8003e4c387db859664411f863f91f44dc912e5e671e3d630eff38a1&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105271717918/Screenshot_2023-11-16_095603.png?ex=65e98c6f&is=65d7176f&hm=8da91898e06bc49722e3d2a02d28fb7d052c85b2d551b3641a5930842dc7d00b&',
+          'https://cdn.discordapp.com/attachments/1174645973570568283/1174646105825349652/Screenshot_2023-11-16_095637.png?ex=65e98c6f&is=65d7176f&hm=da40fb24892c7bdaf883a4de61bcb2edc44bf36d87e5a0d7d54e485b58bb4ca7&',
         ],
         url: 'https://github.com/anujyadav140/commentary-ai',
         isLandscape: true,
@@ -199,25 +200,28 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
       ),
       Project(
         image:
-            'https://cdn.discordapp.com/attachments/1170312411874611233/1170315870405394503/Screenshot_2023-11-03_075111.png?ex=65589896&is=65462396&hm=941d55097c91dece413c6bd6e3063b0d87b9f79c78309350774c093a2d3485e2&',
+            'https://cdn.discordapp.com/attachments/1170312411874611233/1170315870405394503/Screenshot_2023-11-03_075111.png?ex=65e30616&is=65d09116&hm=f2d4f4eba78de34c3b7dd0980a0b5de00a36c390bb3df3d202ad7eaeebb55722&',
         name: 'Artisan',
         shortDescription:
             'Freelancing project I made for Artisan Business Ventures Pvt Ltd, to streamline their Salon Business.',
         longDescription:
             '''—This is the solo-freelancing work I did for Artisan Business Ventures.\n—It handles Bill Management, Attendance Management and Customer Database Management for Artisan' salon business.\n—In Customer Management, introduced features to enhance customer loyalty and increase returning customers by over 20% and implemented KPI indicators to track customer purchases.\n—Feature to generate the Billing pdf and share it easily with the user.\n—Attendance has location tracking enabled, added features to look at past attendance history of the employees.\n—It works on multiple devices such as: Web, Mobile App, Windows etc.''',
         screenshots: [
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312548621504582/photo_6205976436049820288_y.jpg?ex=6558957e&is=6546207e&hm=419c1187548ec782f471dfe42b09090a6aaa67d1aebaa0490b00956f3eaa812d&',
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312615092834416/photo_6205976436049820297_y.jpg?ex=6558958e&is=6546208e&hm=bab2a4121c9522ce794acf4989cf6730a78f4c366dfd6825d58b703674bd65d5&',
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312614446907472/photo_6205976436049820299_y.jpg?ex=6558958e&is=6546208e&hm=a5879ea238355f6f630be9dc6bd61593ee8bf4146af91fea760c2f7e4458fc82&',
-          // 'https://cdn.discordapp.com/attachments/1170312411874611233/1170312613679345694/photo_6205976436049820301_y.jpg?ex=6558958e&is=6546208e&hm=2c48975684a58f2d91146ee41d13b8c1427a21ed9af79e5139c0138871c6dfa9&',
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312614061035621/photo_6205976436049820300_y.jpg?ex=6558958e&is=6546208e&hm=da60ac2e6d09004a911f2448647b6fae2ef024c714ac25f90ceb71fb23de34d3&',
-          // 'https://cdn.discordapp.com/attachments/1170312411874611233/1170312614790836334/photo_6205976436049820298_y.jpg?ex=6558958e&is=6546208e&hm=88c72647b073a5976a7de4e588f4aa0287a54f24671bf146453b995fae4547f9&',
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312615910715492/photo_6205976436049820295_y.jpg?ex=6558958e&is=6546208e&hm=329302571a5426f296bfb9f5ccbac570586a1355444130643e6439c5f9cf1cc4&',
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312613347999804/photo_6205976436049820302_y.jpg?ex=6558958e&is=6546208e&hm=666d400c6357fd623c10668728a96ce56a00ee777776e8a79252ce713de6c162&',
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312547208011868/photo_6205976436049820294_y.jpg?ex=6558957e&is=6546207e&hm=bf15a0ec064a5421af86a313bd39d92d1d711b531ba4f89b31ae70a5a52e01fc&',
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312548067844217/photo_6205976436049820291_y.jpg?ex=6558957e&is=6546207e&hm=1195a78d330492bd8766f99ecf7042a2fa1cad40ae4e3fe26d4b37a244592ac1&',
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312612567855155/photo_6205976436049820304_y.jpg?ex=6558958e&is=6546208e&hm=0ee0721daf838e3c340d7f0d18ebd92e3cbfa8940423b8e8cd8835e72d4623d6&',
-          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312622197972992/photo_6205976436049820305_y.jpg?ex=65589590&is=65462090&hm=0052fa6ce38e555d3f4d275744cf0dab5a148e4d43080500ade7acaf5d91410c&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312548621504582/photo_6205976436049820288_y.jpg?ex=65e302fe&is=65d08dfe&hm=c7dee1f5b51f454edd7791e2ee8fd1e555c60b629e6fdfd0538210189bfda72d&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312615503872091/photo_6205976436049820296_y.jpg?ex=65e3030e&is=65d08e0e&hm=7ae0c1c88ff5f33b6fbcb0ddaca3ca9693150f883f0f5146e8ca9085b126c45b&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1210596576439836672/FIXED1.png?ex=65eb22eb&is=65d8adeb&hm=59eb60c9780c2d7f3d33e1a4161ed53bd5b2aac3157a5f1e52392899c6525f90&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312613679345694/photo_6205976436049820301_y.jpg?ex=65e3030e&is=65d08e0e&hm=51970ce93cd428cfaa5c5b9ba6cb254255fc7423dfaf4e216842ac8558471bda&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312614061035621/photo_6205976436049820300_y.jpg?ex=65e3030e&is=65d08e0e&hm=7dcff96de59120a8fdcb3fd2efb39cb4234e7ab6410e975ee8d7a1363905d175&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312614790836334/photo_6205976436049820298_y.jpg?ex=65e3030e&is=65d08e0e&hm=f58ffd2d16633543eb706ee14328091697f1b51ba1f0d110115dd2610b94afee&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312548873150546/photo_6205976436049820289_y.jpg?ex=65e302ff&is=65d08dff&hm=5523c5dbe979a386c44142374574190088f547c9fe1072098812fcb70bc2b5f9&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312548067844217/photo_6205976436049820291_y.jpg?ex=65e302fe&is=65d08dfe&hm=c06ab0257f01e1c31b4676b9d1abdaee6d4760abafe82933f7b08dfbb974a697&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312547728117771/photo_6205976436049820292_y.jpg?ex=65e302fe&is=65d08dfe&hm=75071e2d16d0b23b524ae3eeaadefd16983b3f697016dbeb4f8a3d78660b4a1f&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312547463860314/photo_6205976436049820293_y.jpg?ex=65e302fe&is=65d08dfe&hm=276f493d8100927f0aaa704b6a1f568c3765e12d67a9e8246cbedb08cee45af9&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312613347999804/photo_6205976436049820302_y.jpg?ex=65e3030e&is=65d08e0e&hm=ff7989cdecb1bea7e2d78264f1f1a4dc189abda650aafaf1234e97adcfe43be9&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312547208011868/photo_6205976436049820294_y.jpg?ex=65e302fe&is=65d08dfe&hm=5b80280c9fdf93c75c94fb2086a55d19b0812738afa1d0b27eedc206a8143157&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312612567855155/photo_6205976436049820304_y.jpg?ex=65e3030e&is=65d08e0e&hm=1eddcd4ecb7da21221e73707904447877f8cb6022e43bb6965b75b2f77765a1f&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312621350735933/photo_6205976436049820307_y.jpg?ex=65e30310&is=65d08e10&hm=74821d5cfcc866f680d60432e8178042702bc34cd9fe81612ea6773e88e195f3&',
+          'https://cdn.discordapp.com/attachments/1170312411874611233/1170312622197972992/photo_6205976436049820305_y.jpg?ex=65e30310&is=65d08e10&hm=c652c7a65f860903a45e241c34b3e624d46100e3b2a90d27f9877b4d75af75c9&',
         ],
         url: 'https://github.com/anujyadav140/Artisan',
         isLandscape: false,
@@ -227,18 +231,18 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
       ),
       Project(
           image:
-              'https://cdn.discordapp.com/attachments/1170323730220716083/1170323788416692314/chatting-app.png?ex=65589ff6&is=65462af6&hm=28887465327649922ab882012073e12d9a86a2e49a9b027009000ea658abc344&',
+              'https://cdn.discordapp.com/attachments/1170323730220716083/1170323788416692314/chatting-app.png?ex=65e30d76&is=65d09876&hm=6a9d4538a4bfa944eda79dded29ebf8c68f92225826012fdeae31d5aa105b742&',
           name: 'Chatting App',
           shortDescription:
               'A chatting app with multimedia support, voice texts and even voice commands, built using flutter and firebase.',
           longDescription:
               '''—Side project I did to get accustomed to Firebase and Native android app development and utilizing the Speech Recognition APIs in the OS.\n—This chatting app has multimedia support, voice texts and even voice commands.\n—Implemented voice command features to navigate between pages and logout (more voice commands can be added-), speech recognition was done with the help of native speech recognition api in android.\n—Even implemented chatGPT & Dall-E as one of the chatting options to get accustomed to these new technologies.''',
           screenshots: [
-            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323788844503120/chatting-ss1.png?ex=65589ff6&is=65462af6&hm=cf80bf90b6f02b1f7d0b1cabed7f607a9f1348e20ac630cb6a73548b09c8ec62&',
-            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323789192626207/chatting-ss2.png?ex=65589ff6&is=65462af6&hm=7b364314611c46b399108a1c87880311dec7378b2e47a57eccfa9d76a43c7237&',
-            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323789540765706/chatting-ss3.png?ex=65589ff6&is=65462af6&hm=ed936d5535c2d21eb8ecf2b39358ecdc12b477170d2d977d18d6df2d2ec4be29&',
-            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323790216040508/chatting-ss4.png?ex=65589ff7&is=65462af7&hm=86e4dbc869b75aa71a927d6235e7662ba614418786023c48fcc352cf080f6fe5&',
-            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323790622883881/chatting-ss5.png?ex=65589ff7&is=65462af7&hm=2d52c0db1790aa40f629dcd86f004adf2db32c88e560eac61a4a208b69ad453d&',
+            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323788844503120/chatting-ss1.png?ex=65e30d76&is=65d09876&hm=186f7c7cff91498380ffd3c3572f9ac751f528a9f77c60e7d81808e3d287890c&',
+            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323789192626207/chatting-ss2.png?ex=65e30d76&is=65d09876&hm=a2a061f0f6101ac931522ea3d5a7eb1fbff2f405894994cd5963c1ad214cdefa&',
+            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323789540765706/chatting-ss3.png?ex=65e30d76&is=65d09876&hm=d29b0fd8268ccf1d413611d2e4a2d72016564eb71183f319f6e59e809c3635b4&',
+            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323790216040508/chatting-ss4.png?ex=65e30d77&is=65d09877&hm=612cbf098a29be0f9bd408d38ab7d43aee041588720528757ec3f17423dbc196&',
+            'https://cdn.discordapp.com/attachments/1170323730220716083/1170323790622883881/chatting-ss5.png?ex=65e30d77&is=65d09877&hm=70467930b34515f0a8f50b85946155267e4ed590c1f52b9d4e87d83ee2309e0a&',
           ],
           url: 'https://github.com/anujyadav140/Chatting_App',
           isLandscape: false,
