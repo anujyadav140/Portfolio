@@ -84,8 +84,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
   List<Widget> _buildCarouselItems() {
     projects = [
       Project(
-        image:
-            'https://cdn.discordapp.com/attachments/1170323444458594416/1170372521112113203/diarify.png?ex=65e33ad9&is=65d0c5d9&hm=9a6432394d1b1046381b3a052d2a90d2b4756792ebc5f1c0619f8f4a1b2f3a44&',
+        image: 'assets/demos/diarify.png',
         name: 'Diarify',
         shortDescription:
             'A diary app which makes diary entries through speech, chat with your past diary entries all through the power of AI.',
@@ -106,8 +105,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         videoId: 'wC1tGSw9SE8',
       ),
       Project(
-        image:
-            'https://cdn.discordapp.com/attachments/1170323495369052200/1170324029236838420/poetry-ai.png?ex=65e30db0&is=65d098b0&hm=dd967593a7a2daaaa5c0d1605aca48f558e76bedadaa07e685fd9ca5a16e01e9&',
+        image: 'assets/demos/poetry-ai.png',
         name: 'Poetry AI',
         shortDescription:
             'Published a poetry editor app that is powered by LLMs on the google playstore.',
@@ -132,8 +130,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         videoId: '3J-_KV70ZLc',
       ),
       Project(
-        image:
-            'https://cdn.discordapp.com/attachments/1170324044185350164/1170324113513005137/wiki-ai-ss1.png?ex=65e30dc4&is=65d098c4&hm=1c7416acad8a2085a2d48ec1e7b7a93d8db0e45005b3d0afa8b3b96e0e447031&',
+        image: 'assets/demos/wiki-ai-ss1.png',
         name: 'Wiki-AI',
         shortDescription:
             'Wiki-AI uses OpenAI & Langchain to generate summaries of any Wikipedia article you want-',
@@ -157,8 +154,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         videoId: 'OQ6zPnUIjXk',
       ),
       Project(
-        image:
-            'https://cdn.discordapp.com/attachments/1170324219461120120/1170324301216485506/poetry-analysis.png?ex=65e30df0&is=65d098f0&hm=134a9a733a66b376f786ab2c999db96f725c50656c8776f4eab5186948c42e72&',
+        image: 'assets/demos/poetry-analysis-ss1.png',
         name: 'Poetry Analysis',
         shortDescription:
             'A cross-platform project in which user can write up a poem in the editor and analyze the poem through Machine Learning.',
@@ -179,8 +175,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         videoId: 'opA6kChWWd0',
       ),
       Project(
-        image:
-            'https://cdn.discordapp.com/attachments/1174645973570568283/1174678345749901352/Screenshot_2023-11-16_095457.png?ex=65e9aa76&is=65d73576&hm=cfe26688058f04173c95b954dbf5004709b455e41e2e3517f4813c1e7b55d9b8&',
+        image: 'assets/demos/commentary-ai-ss1.png',
         name: 'Commentary AI',
         shortDescription:
             'An AI Project built on streamlit, upload a video add AI generated voiceover to it, using GPT-4 Vision, TTS and synchronisation.',
@@ -199,8 +194,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         videoId: 'EfmhpX2SjN8',
       ),
       Project(
-        image:
-            'https://cdn.discordapp.com/attachments/1170312411874611233/1170315870405394503/Screenshot_2023-11-03_075111.png?ex=65e30616&is=65d09116&hm=f2d4f4eba78de34c3b7dd0980a0b5de00a36c390bb3df3d202ad7eaeebb55722&',
+        image: 'assets/demos/artisan-ss1.png',
         name: 'Artisan',
         shortDescription:
             'Freelancing project I made for Artisan Business Ventures Pvt Ltd, to streamline their Salon Business.',
@@ -230,8 +224,7 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
         videoId: '',
       ),
       Project(
-          image:
-              'https://cdn.discordapp.com/attachments/1170323730220716083/1170323788416692314/chatting-app.png?ex=65e30d76&is=65d09876&hm=6a9d4538a4bfa944eda79dded29ebf8c68f92225826012fdeae31d5aa105b742&',
+          image: 'assets/demos/chatting-app-ss1.png',
           name: 'Chatting App',
           shortDescription:
               'A chatting app with multimedia support, voice texts and even voice commands, built using flutter and firebase.',
@@ -281,7 +274,8 @@ class _VideosDesktopWidgetState extends State<VideosDesktopWidget> {
                 child: Column(
                   children: [
                     // Image(image: project.image),
-                    Image.network(project.image),
+                    Image.asset(project.image),
+                    // Image.network(project.image),
                     const SizedBox(height: 5),
                     Text(
                       project.name,
