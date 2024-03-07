@@ -78,6 +78,14 @@ flutter:
     - assets/animations/
     - assets/icons/
     - assets/demos/
+    - assets/demos/diarify/
+    - assets/demos/poetry-analysis/
+    - assets/demos/commentaryai/
+    - assets/demos/wikiai/
+    - assets/demos/chatting/
+    - assets/demos/artisan/
+    - assets/demos/poetryai/
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
