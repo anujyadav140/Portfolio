@@ -18,38 +18,26 @@ class IntroDesktopWidget extends StatelessWidget {
       height: MediaQuery.of(context).size.height,
       child: Stack(
         children: [
-          const Positioned(
+          Positioned(
             left: 800.0,
             top: 350.0,
-            child: Stack(children: [
-              SizedBox(
-                width: 300,
-                height: 300,
-                child: RiveAnimation.asset(
-                  AppAnimations.introAnimation,
-                  stateMachines: ['State Machine 1'],
-                ),
+            child: SizedBox(
+              width: 300,
+              height: 300,
+              child: RiveAnimation.asset(
+                AppAnimations.introAnimation,
+                stateMachines: ['State Machine 1'],
               ),
-              // Positioned(
-              //   left: 25, // Adjust the position as needed
-              //   top: 50, // Adjust the position as needed
-              //   child: AnimatedTextKit(
-              //     animatedTexts: [
-              //       TypewriterAnimatedText('Welcome to Anuj`s Portfolio!'),
-              //       TypewriterAnimatedText('Design first, then code'),
-              //       TypewriterAnimatedText(
-              //           'Do not patch bugs out, rewrite them'),
-              //       TypewriterAnimatedText(
-              //           'Do not test bugs out, design them out'),
-              //     ],
-              //   ),
-              // ),
-            ]),
+            ),
           ),
+
+          // Main content
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 100),
+
+              // Avatar + Intro texts
               Row(
                 children: [
                   CircleAvatar(
@@ -64,100 +52,112 @@ class IntroDesktopWidget extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      // “I am Anuj Yadav”
                       RichText(
                         text: TextSpan(
-                            style: TextStyle(
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: GoogleFonts.robotoSerif().fontFamily,
+                            fontSize: w / 40,
+                          ),
+                          children: [
+                            const TextSpan(text: 'I am '),
+                            TextSpan(
+                              text: 'Anuj Yadav ',
+                              style: TextStyle(
                                 color: Colors.white,
-                                fontFamily:
-                                    GoogleFonts.robotoSerif().fontFamily,
-                                fontSize: w / 40),
-                            children: [
-                              const TextSpan(text: 'I am '),
-                              TextSpan(
-                                  text: 'Anuj Yadav ',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    backgroundColor: Colors.grey[600],
-                                  ))
-                            ]),
+                                backgroundColor: Colors.grey[600],
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                       const SizedBox(height: 20),
                       const Text(
                         'A curious guy,',
-                        style: TextStyle(decoration: TextDecoration.underline),
+                        style: TextStyle(
+                          color: Colors.white,
+                          decoration: TextDecoration.underline,
+                        ),
                       ),
+                      // “Who writes code to bring ideas to life...”
                       RichText(
                         text: TextSpan(
-                            style: TextStyle(
-                                color: Colors.white,
-                                height: 1.2,
-                                fontFamily:
-                                    GoogleFonts.robotoSerif().fontFamily,
-                                fontSize: w / 20,
-                                fontWeight: FontWeight.bold),
-                            children: const [
-                              TextSpan(text: 'Who writes code to bring\n'),
-                              TextSpan(text: 'ideas to '),
-                              TextSpan(
-                                  text: 'life',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                  )),
-                              TextSpan(text: '...')
-                            ]),
+                          style: TextStyle(
+                            color: Colors.white,
+                            height: 1.2,
+                            fontFamily: GoogleFonts.robotoSerif().fontFamily,
+                            fontSize: w / 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          children: const [
+                            TextSpan(text: 'Who writes code to bring\n'),
+                            TextSpan(text: 'ideas to '),
+                            TextSpan(
+                              text: 'life',
+                              style: TextStyle(color: Colors.white),
+                            ),
+                            TextSpan(text: '...'),
+                          ],
+                        ),
                       ),
                     ],
-                  )
+                  ),
                 ],
               ),
+
               const SizedBox(height: 60),
+
+              // Role description + social icons
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "I'm a Software Engineer & ",
+                    "I'm a Product Manager",
                     style: TextStyle(
-                        color: Colors.white,
-                        height: 1.2,
-                        fontFamily: GoogleFonts.robotoSerif().fontFamily,
-                        fontSize: w / 28),
+                      color: Colors.white,
+                      height: 1.2,
+                      fontFamily: GoogleFonts.robotoSerif().fontFamily,
+                      fontSize: w / 28,
+                    ),
                   ),
                   RichText(
                     text: TextSpan(
-                        style: TextStyle(
-                            color: Colors.white,
-                            height: 1.2,
-                            fontFamily: GoogleFonts.robotoSerif().fontFamily,
-                            fontSize: w / 44,
-                            fontWeight: FontWeight.bold),
-                        children: [
-                          TextSpan(
-                              text: ' a full stack dev ',
-                              style: TextStyle(
-                                  backgroundColor: Colors.grey[700],
-                                  color: Colors.grey[100])),
-                          const TextSpan(text: ' who loves to create stuff!')
-                        ]),
-                  ),
-                  const SizedBox(height: 20),
-                  SizedBox(
-                    child: Row(
+                      style: TextStyle(
+                        color: Colors.white,
+                        height: 1.2,
+                        fontFamily: GoogleFonts.robotoSerif().fontFamily,
+                        fontSize: w / 44,
+                        fontWeight: FontWeight.bold,
+                      ),
                       children: [
-                        // socialIcon('',
-                        //     SocialIconsFlutter.instagram),
-                        socialIcon('https://github.com/anujyadav140',
-                            SocialIconsFlutter.github),
-                        socialIcon(
-                            'https://www.linkedin.com/in/anuj-yadav-4493a21b3/',
-                            SocialIconsFlutter.linkedin_box),
-                        // socialIcon(
-                        //     ',
-                        //     SocialIconsFlutter.youtube)
+                        TextSpan(
+                          text: ' with software development skills, ',
+                          style: TextStyle(
+                            backgroundColor: Colors.grey[700],
+                            color: Colors.grey[100],
+                          ),
+                        ),
+                        const TextSpan(text: ' who loves to create stuff!'),
                       ],
                     ),
-                  )
+                  ),
+                  const SizedBox(height: 20),
+                  Row(
+                    children: [
+                      socialIcon(
+                        'https://github.com/anujyadav140',
+                        SocialIconsFlutter.github,
+                      ),
+                      const SizedBox(width: 16),
+                      socialIcon(
+                        'https://www.linkedin.com/in/anuj-yadav-4493a21b3/',
+                        SocialIconsFlutter.linkedin_box,
+                      ),
+                    ],
+                  ),
                 ],
-              )
+              ),
             ],
           ),
         ],
