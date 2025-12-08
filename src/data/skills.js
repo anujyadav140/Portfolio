@@ -1,0 +1,16 @@
+export const skills = [
+    { name: 'Next.js', icon: '/icons/nextjs-new.png' },
+    { name: 'Flutter', icon: '/icons/flutter.png' },
+    { name: 'Dart', icon: '/icons/dart.png' },
+    { name: 'Python', icon: '/icons/python.png' },
+    { name: 'JavaScript', icon: '/icons/javascript.png' },
+    { name: 'TypeScript', icon: '/icons/typescript.png' },
+    { name: 'React', icon: '/icons/react.png' },
+    { name: 'Node.js', icon: '/icons/node.svg' },
+    { name: 'Firebase', icon: '/icons/firebase.png' },
+    { name: 'Azure', icon: '/icons/azure.png' },
+    { name: 'Docker', icon: '/icons/docker.svg' },
+    { name: 'SQL', icon: '/icons/sql.png' },
+    { name: 'MongoDB', icon: '/icons/mongo.svg' },
+    { name: 'Linux', icon: '/icons/linux.png' },
+];

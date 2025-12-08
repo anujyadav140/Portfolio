@@ -1,0 +1,32 @@
+export const projects = [
+    {
+        name: 'Diarify',
+        shortDescription: 'AI-powered diary app with voice entries and chat.',
+        longDescription: 'A diary app which makes diary entries through speech, chat with your past diary entries all through the power of AI. Uses Pinecone vector database to store all the vector data for easy data retrieval.',
+        imageUrl: '/demos/diarify.png',
+        projectUrl: 'https://github.com/anujyadav140/Diary-AI',
+        technologies: ['Flutter', 'OpenAI', 'Langchain', 'Firebase', 'Pinecone'],
+        videoId: 'wC1tGSw9SE8',
+        isLandscape: false,
+    },
+    {
+        name: 'Poetry AI',
+        shortDescription: 'Published poetry editor app powered by LLMs.',
+        longDescription: 'A poetry editor app powered by AI (chatGPT), which gives you recommendations and guides you to enhance your poetry writing skills. Published on Google Play Store.',
+        imageUrl: '/demos/poetry-ai.png',
+        projectUrl: 'https://play.google.com/store/apps/details?id=com.anujyadav.poetryai&pli=1',
+        technologies: ['Flutter', 'OpenAI', 'Typescript', 'Firebase'],
+        videoId: '3J-_KV70ZLc',
+        isLandscape: false,
+    },
+    {
+        name: 'Poetry Analysis',
+        shortDescription: 'ML-based poem analyzer for metre and rhyme.',
+        longDescription: 'A cross-platform project in which user can write up a poem in the editor and analyze the poem through Machine Learning. Finds the metre, rhyme scheme and even the poetry type.',
+        imageUrl: '/demos/poetry-analysis.png',
+        projectUrl: 'https://poetry-analysis.web.app/#/',
+        technologies: ['Flutter', 'Python', 'Flask', 'ML'],
+        videoId: 'opA6kChWWd0',
+        isLandscape: true,
+    },
+];

@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+
+  --primary: #000000;
+  --primary-foreground: #ffffff;
+
+  --secondary: #f4f4f5;
+  --secondary-foreground: #000000;
+
+  --muted: #71717a;
+  --muted-foreground: #a1a1aa;
+
+  --accent: #f4f4f5;
+  --accent-foreground: #000000;
+
+  --border: #e4e4e7;
+  --input: #e4e4e7;
+  --ring: #000000;
+
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #ffffff;
+
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+
+  --secondary: #18181b;
+  --secondary-foreground: #ffffff;
+
+  --muted: #a1a1aa;
+  --muted-foreground: #71717a;
+
+  --accent: #18181b;
+  --accent-foreground: #ffffff;
+
+  --border: #27272a;
+  --input: #27272a;
+  --ring: #ffffff;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  @apply bg-white/10 dark:bg-white/10 backdrop-blur-lg border border-black/10 dark:border-white/10;
+}
+
+.glass-card {
+  @apply bg-white/50 dark:bg-zinc-900/50 backdrop-blur-md border border-zinc-200 dark:border-zinc-800 shadow-sm;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-300 dark:bg-zinc-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-400 dark:bg-zinc-600;
+}
