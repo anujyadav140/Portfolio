@@ -98,7 +98,7 @@ const ProjectModal = ({ project, onClose }) => {
                     <div className="flex flex-col md:flex-row h-full overflow-y-auto md:overflow-hidden">
                         {/* Left side - Carousel */}
                         <div className="md:w-[45%] bg-secondary dark:bg-secondary p-2 md:p-4 flex flex-col justify-center items-center relative md:min-h-0 shrink-0">
-                            <div className="relative w-full h-[70vh] md:h-auto md:aspect-video md:max-h-[700px] rounded-lg overflow-hidden flex items-center justify-center bg-secondary">
+                            <div className={`relative w-full h-[70vh] md:h-auto ${project.isLandscape ? 'md:aspect-video md:max-h-[700px]' : 'md:h-[80vh]'} rounded-lg overflow-hidden flex items-center justify-center bg-secondary`}>
                                 <AnimatePresence mode="wait">
                                     <motion.div
                                         key={currentSlide}

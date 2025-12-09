@@ -5,7 +5,7 @@ export const projects = [
         longDescription: `An advanced voice-to-speech productivity tool designed to enhance communication speed and accuracy. Swift Speak goes beyond simple transcription by integrating AI to adapt to your personal style and workflow.
 —Personal Dictionary: Manage a custom vocabulary to ensure accurate recognition of names, jargon, and unique terms.
 —Smart Snippets: Create voice shortcuts that expand into full text (e.g., say "email" -> inserts your email signature), saving time on repetitive typing.
-—Style Customization: Tailor the tone of your text—from "Formal" capitalization and punctuation to "Casual" sentence case—giving you control over how your voice is presented.
+—Style Customization: Tailor the tone of your text, giving you control over how your voice is presented.
 —Seamless Integration: Operates as an intuitive overlay and keyboard connector, working across personal messengers and work apps.`,
         imageUrl: '/demos/swift-speak/swift-speak-main.png',
         projectUrl: 'https://github.com/anujyadav140/swift_speak',

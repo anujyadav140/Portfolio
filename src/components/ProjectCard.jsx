@@ -44,10 +44,12 @@ const ProjectCard = ({ project, index, onClick }) => {
                             href={project.projectUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="p-3 rounded-full bg-white text-black hover:scale-110 transition-transform font-bold text-xs"
+                            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white text-black hover:scale-110 transition-transform font-bold text-xs"
                             title="Visit Project"
+                            onClick={(e) => e.stopPropagation()}
                         >
-                            LINK
+                            <Github size={20} />
+                            <span>Github Link</span>
                         </a>
                     )}
                     {project.videoId && (
@@ -57,8 +59,9 @@ const ProjectCard = ({ project, index, onClick }) => {
                             rel="noopener noreferrer"
                             className="p-3 rounded-full bg-red-600 text-white hover:scale-110 transition-transform font-bold text-xs"
                             title="Watch Demo"
+                            onClick={(e) => e.stopPropagation()}
                         >
-                            VIDEO
+                            <Youtube size={20} />
                         </a>
                     )}
                 </div>

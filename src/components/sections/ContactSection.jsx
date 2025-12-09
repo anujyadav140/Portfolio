@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Button from '../ui/Button';
 import Image from 'next/image';
-// import { Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const ContactSection = () => {
     return (
@@ -27,9 +27,17 @@ const ContactSection = () => {
                     </p>
 
                     <div className="flex flex-col items-center gap-8">
-                        <Button href="mailto:anujyadav160@gmail.com" className="text-lg px-10 py-6">
-                            <span className="mr-2">✉️</span> anujyadav160@gmail.com
-                        </Button>
+                        <a
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=anujyadav160@gmail.com&su=Project%20Inquiry"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="relative inline-flex items-center justify-center px-10 py-6 overflow-hidden font-medium transition-all rounded-full group bg-primary text-primary-foreground shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/40 text-lg"
+                        >
+                            <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
+                            <span className="relative flex items-center gap-2">
+                                <Mail className="mr-2 w-5 h-5" /> anujyadav160@gmail.com
+                            </span>
+                        </a>
 
                         <div className="mt-8">
                             <p className="text-sm font-medium uppercase tracking-widest text-muted-foreground mb-6">
