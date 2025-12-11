@@ -10,7 +10,7 @@ export const projects = [
         imageUrl: '/demos/swift-speak/swift-speak-main.png',
         projectUrl: 'https://github.com/anujyadav140/swift_speak',
         technologies: ['Flutter', 'Android Native', 'Gemini AI', 'Firebase'],
-        videoId: '',
+        videoId: '1IMsgJWu8gM',
         isLandscape: false,
         screenshots: [
             '/demos/swift-speak/swift-speak-chat.jpg',

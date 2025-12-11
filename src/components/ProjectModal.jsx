@@ -98,7 +98,7 @@ const ProjectModal = ({ project, onClose }) => {
                     <div className="flex flex-col md:flex-row h-full overflow-y-auto md:overflow-hidden">
                         {/* Left side - Carousel */}
                         <div className="md:w-[45%] bg-secondary dark:bg-secondary p-2 md:p-4 flex flex-col justify-center items-center relative md:min-h-0 shrink-0">
-                            <div className={`relative w-full h-[70vh] md:h-auto ${project.isLandscape ? 'md:aspect-video md:max-h-[700px]' : 'md:h-[80vh]'} rounded-lg overflow-hidden flex items-center justify-center bg-secondary`}>
+                            <div className={`relative w-full h-[70vh] ${project.isLandscape ? 'md:h-auto md:aspect-video md:max-h-[700px]' : 'md:h-[80vh]'} rounded-lg overflow-hidden flex items-center justify-center bg-secondary`}>
                                 <AnimatePresence mode="wait">
                                     <motion.div
                                         key={currentSlide}
@@ -179,7 +179,7 @@ const ProjectModal = ({ project, onClose }) => {
                             <h2 className="text-2xl md:text-3xl font-bold mb-4">{project.name}</h2>
 
                             {/* Short description */}
-                            <p className="text-lg text-muted-foreground mb-6">
+                            <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-6 font-medium">
                                 {project.shortDescription}
                             </p>
 
@@ -191,7 +191,7 @@ const ProjectModal = ({ project, onClose }) => {
                                         {line.type === 'bullet' && (
                                             <span className="text-secondary-foreground flex-shrink-0">•</span>
                                         )}
-                                        <p className="text-sm leading-relaxed flex-1">{line.text}</p>
+                                        <p className="text-base md:text-lg leading-relaxed flex-1 text-gray-800 dark:text-gray-200">{line.text}</p>
                                     </div>
                                 ))}
                             </div>
