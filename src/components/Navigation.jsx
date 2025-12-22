@@ -44,7 +44,7 @@ const Navigation = () => {
     return (
         <>
             <motion.nav
-                initial={{ y: -100 }}
+                initial={{ y: 0 }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.5 }}
                 className={cn(

@@ -9,9 +9,18 @@ export const projects = [
 —Seamless Integration: Operates as an intuitive overlay and keyboard connector, working across personal messengers and work apps.`,
         imageUrl: '/demos/swift-speak/swift-speak-main.png',
         projectUrl: 'https://github.com/anujyadav140/swift_speak',
+        caseStudyUrl: 'https://drive.google.com/file/d/1xmylbbwpDCv-1eFsXfX3mtM7qfT9HUoQ/view?usp=sharing',
         technologies: ['Flutter', 'Android Native', 'Gemini AI', 'Firebase'],
         videoId: '1IMsgJWu8gM',
         isLandscape: false,
+        productSkills: [
+            'Product Strategy',
+            'UX & Prototyping (Figma)',
+            'RAG / LLM & Agentic AI',
+            'PRDs & Requirements',
+            'Full-stack Software Engineering',
+            'Roadmapping & Prioritization'
+        ],
         screenshots: [
             '/demos/swift-speak/swift-speak-chat.jpg',
             '/demos/swift-speak/swift-speak-style.jpg',
@@ -27,8 +36,7 @@ export const projects = [
     {
         name: 'Nike Case Study - AI Features',
         shortDescription: 'Reimagining the Nike app with AI-driven sustainability and engagement.',
-        longDescription: `This project addresses the "Closing the Loop" challenge to improve the sustainability of Nike as a business.
-A comprehensive update to the Nike App leveraging AI to drive sustainability and deeper user engagement.
+        longDescription: `A comprehensive update to the Nike App leveraging AI to drive sustainability and deeper user engagement.
 —Run, Return & Recycle: Tracks the lifecycle of your shoes (e.g., Pegasus 41). Log your runs to hit the 300-mile mark, unlocking an "Eco benefit" for your next purchase while guiding you to recycle the old pair. tracking progress towards a sustainable future.
 —AI Shoe Snap: Utilizing Gemini AI and computer vision to instantly identify your shoe model and assess its condition, ensuring it qualifies for the recycling program with a simple photo.
 —Smart Route Generation: Integrated Google Maps API to create dynamic, personalized running paths based on your location and distance goals, encouraging you to explore while you close the loop.`,
@@ -38,6 +46,14 @@ A comprehensive update to the Nike App leveraging AI to drive sustainability and
         technologies: ['Flutter', 'Firebase', 'Gemini AI', 'Google Maps API', 'Next.js'],
         videoId: 'EDO85Rocti8',
         isLandscape: false,
+        productSkills: [
+            'Product Strategy',
+            'UX & Prototyping (Figma)',
+            'RAG / LLM & Agentic AI',
+            'PRDs & Requirements',
+            'Big Data / Data Engineering',
+            'Roadmapping & Prioritization'
+        ],
         screenshots: [
             '/demos/nike-case-study/nike-main.png',
             '/demos/nike-case-study/nike-recycle.png',
@@ -51,12 +67,22 @@ A comprehensive update to the Nike App leveraging AI to drive sustainability and
         longDescription: `Beemo reimagines household harmony by intelligently orchestrating task distribution among roommates. Leveraging the power of Gemini AI, it analyzes chore complexity and user availability to ensure an equitable and conflict-free living environment.
 —Intelligent task arbitration using Gemini AI to prevent disputes.
 —Real-time synchronization and management built on Flutter and Firebase.
-—A modern, intuitive interface that brings transparency to household contributions.`,
+—A modern, intuitive interface that brings transparency to household contributions.
+—Collaboration Note: The Case study was authored by Meher. My role involved pretotyping Meher's designs into a functional reality through coding, and contributing to feature development and design strategy.`,
         imageUrl: '/demos/beemo/beemo-tile.png',
         projectUrl: 'https://github.com/anujyadav140/beemo',
+        caseStudyUrl: 'https://drive.google.com/file/d/1zgtl4iNK0oukpvOzI1GUj9JDMRcscMYA/view?usp=sharing',
         technologies: ['Flutter', 'Firebase', 'Next.js', 'Gemini AI'],
         videoId: '',
         isLandscape: false,
+        productSkills: [
+            'Product Strategy',
+            'Cross-functional Leadership',
+            'RAG / LLM & Agentic AI',
+            'PRDs & Requirements',
+            'Full-stack Software Engineering',
+            'UX & Prototyping (Figma)'
+        ],
         screenshots: [
             '/demos/beemo/beemo-ss4.jpg',
             '/demos/beemo/beemo-ss1.jpg',
@@ -82,14 +108,35 @@ A comprehensive update to the Nike App leveraging AI to drive sustainability and
         technologies: ['Flutter', 'Dart', 'Google Generative AI', 'Firebase'],
         videoId: 'ecpIJp2QiKI',
         isLandscape: false,
+        productSkills: [
+            'Product Strategy',
+            'Roadmapping & Prioritization',
+            'Data Analytics & Dashboards',
+            'RAG / LLM & Agentic AI',
+            'UX & Prototyping (Figma)'
+        ],
         screenshots: [
-            '/demos/mono-moments.png',
             '/demos/mono-moments-ss1.jpg',
             '/demos/mono-moments-ss2.jpg',
             '/demos/mono-moments-ss3.jpg',
             '/demos/mono-moments-ss4.jpg',
             '/demos/mono-moments-ss5.jpg',
         ],
+    },
+    {
+        name: 'VSP Vision Analytics',
+        shortDescription: 'Processed VSP Vision\'s dataset through clustering and forecasting to identify key customer personas.',
+        longDescription: `Leveraged clustering and forecasting algorithms to identify five distinct customer personas from VSP Vision's dataset, directly informing pricing strategies presented to the CIO. Completed as the capstone for the Data Science for Product Managers course.`,
+        imageUrl: '/images/projects/vsp-vision.png',
+        projectUrl: '',
+        caseStudyUrl: 'https://drive.google.com/file/d/1hCUT0Gq575wUYB6pkmPbqwVpEjGEFvuh/view?usp=sharing',
+        technologies: ['Clustering', 'Forecasting', 'Python', 'Tableau', 'Data Analytics'],
+        videoId: '',
+        isLandscape: true,
+        productSkills: [
+            'Data Analytics & Dashboards',
+            'Roadmapping & Prioritization'
+        ]
     },
     {
         name: 'Diarify',
@@ -104,6 +151,11 @@ A comprehensive update to the Nike App leveraging AI to drive sustainability and
         technologies: ['Flutter', 'OpenAI', 'Langchain', 'Firebase', 'Pinecone'],
         videoId: 'wC1tGSw9SE8',
         isLandscape: false,
+        productSkills: [
+            'RAG / LLM & Agentic AI',
+            'Full-stack Software Engineering',
+            'SQL & Databases'
+        ],
         screenshots: [
             '/demos/diarify/diarify-ss1.jpg',
             '/demos/diarify/diarify-ss2.jpg',
@@ -125,6 +177,10 @@ A comprehensive update to the Nike App leveraging AI to drive sustainability and
         technologies: ['Flutter', 'OpenAI', 'Typescript', 'Firebase'],
         videoId: '3J-_KV70ZLc',
         isLandscape: false,
+        productSkills: [
+            'RAG / LLM & Agentic AI',
+            'Full-stack Software Engineering'
+        ],
         screenshots: [
             '/demos/poetryai/poetry-ai-ss1.png',
             '/demos/poetryai/poetry-ai-ss2.png',
@@ -149,6 +205,10 @@ A comprehensive update to the Nike App leveraging AI to drive sustainability and
         technologies: ['Flutter', 'Python', 'Flask', 'ML'],
         videoId: 'opA6kChWWd0',
         isLandscape: true,
+        productSkills: [
+            'Full-stack Software Engineering',
+            'Big Data / Data Engineering'
+        ],
         screenshots: [
             '/demos/poetry-analysis/poetry-analysis.png',
             '/demos/poetry-analysis/poetry-analysis-ss1.png',

@@ -69,6 +69,7 @@
 /* Smooth Scroll */
 html {
   scroll-behavior: smooth;
+  font-size: 85%;
 }
 
 /* Custom Scrollbar */

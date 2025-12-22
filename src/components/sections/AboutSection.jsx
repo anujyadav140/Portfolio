@@ -22,11 +22,7 @@ const AboutSection = () => {
                         </h2>
                         <div className="prose dark:prose-invert max-w-none text-lg text-muted-foreground leading-relaxed space-y-6">
                             <p>
-                                I&apos;m a Product Manager with 3+ years of experience, skilled in transforming legacy systems into scalable SaaS solutions.
-                            </p>
-                            <p>
-                                I led cross-functional teams at LTIMindtree and Epitome Network, developing mobile platforms and KPI dashboards.
-                                Recently graduated from Master of Information Systems Management at Carnegie Mellon University.
+                                I bridge the gap between complex legacy architecture and scalable SaaS innovation. With a Master of Information Systems Management from Carnegie Mellon and over 3 years of hands-on PM experience, I&apos;ve led cross-functional teams at LTIMindtree to build mobile solutions and real-time KPI frameworks. I thrive at the intersection of product strategy, data visualization, and engineering excellence.
                             </p>
                         </div>
                     </motion.div>
